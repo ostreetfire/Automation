@@ -29,6 +29,13 @@ def _save_settings(settings: Dict[str, Any]) -> None:
         yaml.safe_dump(settings, f)
 
 
+def set_api_key(api_key: str) -> None:
+    """Persist the API key to the settings file."""
+    settings = _load_settings()
+    settings["llamacloud_api_key"] = api_key
+    _save_settings(settings)
+
+
 def get_api_key() -> str:
     """Return the LlamaCloud API key from environment or config."""
     key = os.getenv("LLAMA_CLOUD_API_KEY")
@@ -132,4 +139,5 @@ __all__ = [
     "poll_job",
     "parse_with_llamacloud",
     "get_api_key",
+    "set_api_key",
 ]
