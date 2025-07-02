@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict
 
@@ -17,11 +17,18 @@ from analysis.engine.semantic_rag import run_semantic_rag
 from database.db_connection import SessionLocal, engine
 from database.analysis_results import AnalysisResult
 
-logging.basicConfig(level=logging.INFO)
+# ensure tables exist on import
+Base.metadata.create_all(engine)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s - %(message)s",
+)
 logger = logging.getLogger(__name__)
 
 
 def load_structured_financials(case_id: int) -> Dict[str, Any]:
+    """Load financial data for a case from ``analysis/financials``."""
     path = Path(f"analysis/financials/{case_id}.json")
     if path.exists():
         with path.open("r", encoding="utf-8") as f:
@@ -31,12 +38,13 @@ def load_structured_financials(case_id: int) -> Dict[str, Any]:
 
 
 def load_assumptions() -> Dict[str, Any]:
+    """Load valuation assumptions from ``config/assumptions.yaml``."""
     path = Path("config/assumptions.yaml")
     if path.exists():
         with path.open("r", encoding="utf-8") as f:
             if yaml:
                 return yaml.safe_load(f) or {}
-            # fallback very simple parser: key: value pairs separated by ':'
+            # fallback: simple ``key: value`` parser if PyYAML is missing
             data = {}
             for line in f:
                 if ":" in line:
@@ -48,7 +56,7 @@ def load_assumptions() -> Dict[str, Any]:
 
 
 def persist_results(case_id: int, results: Dict[str, Any]) -> None:
-    Base.metadata.create_all(engine)
+    """Persist analysis results for a case."""
     with SessionLocal() as session:
         record = AnalysisResult(case_id=case_id, results=results)
         session.add(record)
@@ -56,8 +64,9 @@ def persist_results(case_id: int, results: Dict[str, Any]) -> None:
 
 
 def run_analysis_pipeline(case_id: int) -> None:
-    start_time = datetime.utcnow()
-    logger.info("Starting analysis for case %s", case_id)
+    """Execute the full analysis pipeline for a case."""
+    start_time = datetime.now(timezone.utc)
+    logger.info("Starting analysis for case %s at %s", case_id, start_time.isoformat())
 
     financials = load_structured_financials(case_id)
     assumptions = load_assumptions()
@@ -70,7 +79,7 @@ def run_analysis_pipeline(case_id: int) -> None:
         "valuation": valuation,
         "semantic_rag": rag_output,
         "started_at": start_time.isoformat(),
-        "completed_at": datetime.utcnow().isoformat(),
+        "completed_at": datetime.now(timezone.utc).isoformat(),
     }
 
     persist_results(case_id, results)
