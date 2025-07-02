@@ -1,4 +1,4 @@
-db:
+database:
   url: sqlite:///./case_analytics.db
 
 storage:
@@ -13,3 +13,4 @@ slack:
 
 watchlist:
   check_interval_days: 1
+
