@@ -1,5 +1,3 @@
-"""Database connection setup using SQLAlchemy."""
-
 from __future__ import annotations
 
 import yaml
