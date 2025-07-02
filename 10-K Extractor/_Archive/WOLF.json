@@ -1,0 +1,494 @@
+{
+  "run_id": "df3dc4d9-632f-47da-9afb-b80a6b24009b",
+  "extraction_agent_id": "3b88cc70-cec3-4e85-9e3f-9d9fdd80cdd4",
+  "data": {
+    "filingInfo": {
+      "filingType": "10-K",
+      "filingDate": "",
+      "reportingPeriodEnd": "",
+      "fiscalYear": "2024",
+      "fiscalQuarter": null,
+      "cik": "0000895419",
+      "documentUrl": null
+    },
+    "companyProfile": {
+      "name": "Wolfspeed, Inc.",
+      "ticker": "WOLF",
+      "isAdr": false,
+      "reportingCurrency": "USD",
+      "location": "4600 Silicon Drive, Durham, NC 27703",
+      "incorporationLocation": "North Carolina",
+      "businessDescription": "Wolfspeed, Inc. is an innovator of wide bandgap semiconductors, focused on silicon carbide materials and devices for power applications. The Company’s product families include silicon carbide materials and power devices targeted for various applications such as electric vehicles, fast charging and renewable energy and storage. The Company’s continuing operations consist of power devices, which are used in electric vehicles, motor drives, power supplies, solar and transportation applications and silicon carbide and gallium nitride (GaN) materials, which are targeted for customers who use them to manufacture products for RF, power and other applications. The majority of the Company's products are manufactured at its production facilities located in North Carolina, New York and Arkansas. The Company also uses contract manufacturers for certain products and aspects of product fabrication, assembly and packaging. The Company operates research and development facilities in North Carolina, Arkansas and New York.",
+      "sector": null,
+      "industry": null,
+      "sicCode": null,
+      "employeeCount": "5013",
+      "exchanges": [
+        "New York Stock Exchange"
+      ],
+      "auditor": "PricewaterhouseCoopers LLP"
+    },
+    "financialHighlights": {
+      "periodEnd": "2024-06-30",
+      "comparisonPeriodEnd": null,
+      "currency": null,
+      "unit": null,
+      "revenue": 0,
+      "revenuePriorPeriod": null,
+      "revenueGrowth": null,
+      "grossProfit": null,
+      "grossMargin": null,
+      "operatingIncome": null,
+      "operatingMargin": null,
+      "netIncome": 0,
+      "netMargin": null,
+      "eps": null,
+      "dilutedEps": null,
+      "ebitda": null,
+      "freeCashFlow": null
+    },
+    "financialStatements": {
+      "incomeStatement": {
+        "periodType": "Fiscal Year",
+        "revenue": 807.2,
+        "costOfRevenue": 729.8,
+        "grossProfit": 77.4,
+        "operatingExpenses": 521.7,
+        "rAndD": 201.9,
+        "sgAndA": 246.4,
+        "operatingIncome": -445.3,
+        "interestExpense": 246.3,
+        "incomeTaxExpense": 1.1,
+        "netIncome": -864.2,
+        "basicEps": -6.88,
+        "dilutedEps": -6.88,
+        "sharesOutstandingBasic": 125693,
+        "sharesOutstandingDiluted": 125693
+      },
+      "balanceSheet": {
+        "asOfDate": "June 30, 2024",
+        "cashAndEquivalents": 1045.9,
+        "shortTermInvestments": 1128.7,
+        "accountsReceivable": 147.4,
+        "inventory": 440.7,
+        "totalCurrentAssets": 2999.6,
+        "propertyPlantEquipment": 3652.3,
+        "goodwill": 359.2,
+        "intangibleAssets": 23.9,
+        "totalAssets": 7984.6,
+        "accountsPayable": 523.6,
+        "shortTermDebt": 0,
+        "totalCurrentLiabilities": 0,
+        "longTermDebt": 0,
+        "totalLiabilities": 0,
+        "totalEquity": 882.1
+      },
+      "cashFlowStatement": {
+        "periodType": "Fiscal Year",
+        "netIncome": -864.2,
+        "depreciationAmortization": 181,
+        "stockBasedCompensation": 84.9,
+        "operatingCashFlow": -671.3,
+        "capitalExpenditures": 2274,
+        "acquisitions": 0,
+        "investingCashFlow": -1940.2,
+        "debtIssuance": 2000,
+        "debtRepayment": 0.4,
+        "stockRepurchase": 0,
+        "dividendsPaid": 0,
+        "financingCashFlow": 1958,
+        "freeCashFlow": -2945.3
+      }
+    },
+    "businessSegments": [
+      {
+        "name": "Silicon Carbide and GaN Materials",
+        "description": "Silicon carbide materials products consist of silicon carbide bare wafers, epitaxial wafers, and GaN epitaxial layers on silicon carbide wafers. Targeted for customers who use them to manufacture products for RF, power and other applications, as well as for research and development.",
+        "revenue": 391.6,
+        "revenuePercentage": null,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": null
+      },
+      {
+        "name": "Power Devices",
+        "description": "Power device products consist of silicon carbide Schottky diodes, MOSFETs and power modules. Sold to customers and distributors for use in electric vehicles, charging infrastructure, server power supplies, solar inverters, uninterruptible power supplies, industrial power supplies and other applications.",
+        "revenue": 415.6,
+        "revenuePercentage": null,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": null
+      }
+    ],
+    "geographicSegments": [
+      {
+        "region": "Europe",
+        "revenue": 295.2,
+        "revenuePercentage": 36.6,
+        "yearOverYearGrowth": null
+      },
+      {
+        "region": "Asia Pacific (excluding China and Hong Kong)",
+        "revenue": 237.4,
+        "revenuePercentage": 29.4,
+        "yearOverYearGrowth": null
+      },
+      {
+        "region": "Hong Kong",
+        "revenue": 116.4,
+        "revenuePercentage": 14.4,
+        "yearOverYearGrowth": null
+      },
+      {
+        "region": "United States",
+        "revenue": 115,
+        "revenuePercentage": 14.2,
+        "yearOverYearGrowth": null
+      },
+      {
+        "region": "China",
+        "revenue": 41.5,
+        "revenuePercentage": 5.1,
+        "yearOverYearGrowth": null
+      },
+      {
+        "region": "Other",
+        "revenue": 1.7,
+        "revenuePercentage": 0.3,
+        "yearOverYearGrowth": null
+      }
+    ],
+    "keyRisks": [
+      {
+        "category": "Market",
+        "title": "Risks related to our global operations, including global macroeconomic and market risks",
+        "description": "Our business may be adversely affected by the state of the global economy, uncertainties in global financial markets, our ability, or our customers' or suppliers' ability, to access funding, and possible trade tariffs and trade restrictions.",
+        "potentialImpact": "Could have a material negative effect on demand for our products and services and, accordingly, on our business, results of operations or financial condition."
+      },
+      {
+        "category": "Market",
+        "title": "Risks related to international sales and purchases",
+        "description": "In fiscal 2024, 86% of our revenue was from outside the United States. Our international sales and purchases are subject to numerous United States and foreign laws and regulations, including tariffs, trade sanctions, trade barriers, trade embargoes, import-export control, technology transfer restrictions, and anti-boycott provisions.",
+        "potentialImpact": "Government restrictions on sales to certain foreign customers will reduce our revenue and profit related to those customers in the short term and could have a potential long-term impact."
+      },
+      {
+        "category": "Operational",
+        "title": "Risks related to sales, product development and manufacturing",
+        "description": "We face significant challenges managing our growth strategy, including maintaining, expanding, constructing and purchasing adequate manufacturing facilities and equipment, managing an increasingly complex supply chain, and attracting and retaining qualified employees.",
+        "potentialImpact": "If we are unable to manage our growth and business strategy effectively, our results of operations, financial condition and business could be harmed."
+      },
+      {
+        "category": "Operational",
+        "title": "Manufacturing and Demand Forecasting Risks",
+        "description": "If product demand decreases or if we fail to forecast demand decreases or changes accurately, we may experience a mismatch between current product demand and manufactured product mix, adversely impacting our results, including due to higher costs resulting from lower factory utilization, causing higher fixed costs per unit produced. We may be required to recognize impairments on our long-lived assets or recognize excess inventory write-off charges, or excess capacity charges, which would have a negative impact on our results of operations.",
+        "potentialImpact": "Lower margins, negative impact on business and results of operations."
+      },
+      {
+        "category": "Operational",
+        "title": "Underutilization of New Facilities",
+        "description": "With the opening of the Mohawk Valley Fab, we have experienced and will continue to experience increased pressure on margins during the period when production begins but before the facility is at full utilization, and in the initial periods we expect these underutilization costs will continue to be substantial as we ramp up the facility.",
+        "potentialImpact": "Substantial underutilization costs, further margin pressures."
+      },
+      {
+        "category": "Operational",
+        "title": "Production Yield and Process Risks",
+        "description": "The number of usable items, or yield, from our production processes may fluctuate as a result of many factors, including variability in process repeatability and control, contamination, equipment failure, power outages, fires, flooding, information or other system failures, lack of consistency and adequate quality and quantity of piece parts, inventory shrinkage or human errors, defects in production processes, and transitions or changes in our production process.",
+        "potentialImpact": "Decline in margins, negative impact on operating results."
+      },
+      {
+        "category": "Operational",
+        "title": "Risks Related to New Product Development and Acceptance",
+        "description": "Our future success may depend on our ability to deliver new, higher performing and/or lower cost solutions for existing and new markets and for customers to accept those solutions. The development of new products is a highly complex process, and we have in some instances experienced delays in completing the development, introduction and qualification of new products which has impacted our results in the past.",
+        "potentialImpact": "Inability to deliver and introduce new products in a timely or cost effective manner."
+      },
+      {
+        "category": "Supply Chain",
+        "title": "Supplier and Commodity Risks",
+        "description": "We depend on a number of sole source and limited source suppliers for certain raw materials, components, services and equipment used in manufacturing our products. General shortages in the marketplace of certain raw materials or key components may adversely impact our business. In the past, we have experienced decreases in our production yields when suppliers have varied from previously agreed upon specifications or made other modifications we did not specify, which impacted our cost of revenue.",
+        "potentialImpact": "Production interruptions, increased costs, negative impact on business."
+      },
+      {
+        "category": "Supply Chain",
+        "title": "Shipping and Logistics Risks",
+        "description": "We rely on arrangements with independent shipping companies for the delivery of our products from vendors and to customers both in the United States and abroad. The failure or inability of these shipping companies to deliver products or the unavailability of shipping or port services, even temporarily, could have a material adverse effect on our business.",
+        "potentialImpact": "Material adverse effect on business."
+      },
+      {
+        "category": "Market",
+        "title": "Industry Cyclicality and Pricing Fluctuations",
+        "description": "The industries we serve are in different stages of adoption and are characterized by constant and rapid technological change, rapid product obsolescence and price erosion, evolving standards and fluctuations in product supply and demand. These fluctuations have been characterized by lower product demand, production overcapacity, higher inventory levels and aggressive pricing actions by our competitors.",
+        "potentialImpact": "Material negative impact on business, results of operations or financial condition."
+      },
+      {
+        "category": "Customer Concentration",
+        "title": "Dependence on Limited Number of Customers and Distributors",
+        "description": "We receive a significant amount of our revenue from a limited number of customers and distributors, two of which individually represented more than 10% of our consolidated revenue in fiscal 2024. Many of our customer orders are made on a purchase order basis, which does not generally require any long-term customer commitments.",
+        "potentialImpact": "Negative impact on financial condition and results of operations if customers alter purchasing behavior."
+      },
+      {
+        "category": "Product",
+        "title": "Product Quality and Warranty Risks",
+        "description": "If our products fail to perform or fail to meet customer requirements or expectations, we could incur significant additional costs, including costs associated with the recall of those items. We provide standard warranty periods of 90 days on our products, with longer periods under a limited number of customer contracts.",
+        "potentialImpact": "Significant losses, adverse publicity, damage to reputation, loss of customer confidence."
+      },
+      {
+        "category": "Strategic Transactions",
+        "title": "Risks Associated with Strategic Transactions",
+        "description": "If we fail to evaluate and execute strategic opportunities successfully, our business may suffer. Risks include the inability to realize expected benefits from capacity expansions, failure of acquired businesses to meet expectations, loss of customers, difficulty integrating operations, and higher than anticipated expenses.",
+        "potentialImpact": "Adverse effect on business, results of operations or financial condition."
+      },
+      {
+        "category": "Strategic Transactions",
+        "title": "Risks Associated with Sale of RF Business",
+        "description": "On December 2, 2023, we completed the sale of the RF Business to MACOM Technology Solutions Holdings, Inc. (MACOM). We are subject to risks including issues, delays or complications in completing required transition activities, restrictions and obligations under supply and transition services agreements, and the risk of not realizing the full purchase price.",
+        "potentialImpact": "Adverse impact on operations, financial condition and business; could limit ability to pursue additional strategic transactions."
+      },
+      {
+        "category": "Strategic Transactions",
+        "title": "Risks Associated with Sale of Former Business Units",
+        "description": "We are subject to risks associated with the sale of our former Lighting Products and LED Products business units, including risks associated with any required payments of indemnification obligations under the related purchase agreements.",
+        "potentialImpact": "Adverse impact on financial condition; could limit ability to pursue additional strategic transactions."
+      },
+      {
+        "category": "Cybersecurity",
+        "title": "Cybersecurity and Confidential Information Risks",
+        "description": "We face attempts by others to gain unauthorized access to our information technology systems on which we maintain proprietary and other confidential information. The risk of a security breach or disruption, particularly through cyber-attacks, ransomware, or cyber intrusion, has generally increased.",
+        "potentialImpact": "Adversely affect competitive position, result in loss of confidence, significant costs, business disruption."
+      },
+      {
+        "category": "Intellectual Property",
+        "title": "Limitations on Intellectual Property Protection",
+        "description": "Our existing patents are subject to expiration and re-examination and we cannot be sure that additional patents will be issued on any new applications or that our existing or future patents will not be successfully contested by third parties. We periodically discover products that are counterfeit reproductions of our products or that otherwise infringe on our intellectual property rights.",
+        "potentialImpact": "Adversely affect sales and brand, result in legal expense, shift of customer preference."
+      },
+      {
+        "category": "Legal",
+        "title": "Litigation Risks",
+        "description": "We are often involved in litigation, primarily patent litigation. Defending against existing and potential litigation will likely require significant attention and resources and, regardless of the outcome, result in significant legal expenses.",
+        "potentialImpact": "Adversely affect results unless covered by insurance or recovered from third parties; could be liable for damage awards."
+      },
+      {
+        "category": "Intellectual Property",
+        "title": "Claims of Infringement",
+        "description": "Our business may be impaired by claims that we, or our customers, infringe the intellectual property rights of others. Litigation to determine the validity of patents or claims by third parties of infringement could result in significant legal expense and divert the efforts of our technical personnel and management.",
+        "potentialImpact": "Could be required to pay substantial damages, indemnify customers, stop manufacture or sale of products, incur asset impairment charges."
+      },
+      {
+        "category": "Accounting/Tax",
+        "title": "Impairment of Goodwill or Other Assets",
+        "description": "Goodwill and other assets are reviewed for impairment annually and when events or changes in circumstances indicate that the carrying value of an asset may not be recoverable. For example, in the first quarter of fiscal 2024, we recorded an impairment to assets held for sale associated with the then pending RF Business Divestiture of $144.6 million.",
+        "potentialImpact": "Recognition of a significant charge to earnings could adversely impact results of operations."
+      },
+      {
+        "category": "Regulatory",
+        "title": "Regulatory and Standards Risks",
+        "description": "The adoption of or changes in government and/or industry policies, standards or regulations relating to the efficiency, performance, vehicle range or other aspects of our products and the products in which they are utilized may impact the demand for our products.",
+        "potentialImpact": "Negative impact on demand for products, business, and results of operations."
+      },
+      {
+        "category": "Tax",
+        "title": "Tax Rate and Credit Risks",
+        "description": "Our future effective tax rates and our ability to obtain future tax credits may affect our results and financial condition due to a number of factors, including changes in tax laws, available tax credits, and the implementation of international tax and profit shifting rules.",
+        "potentialImpact": "Significant increase or decrease in future effective tax rates could impact net (loss) income for future periods."
+      },
+      {
+        "category": "Environmental",
+        "title": "Environmental Compliance Risks",
+        "description": "The manufacturing, assembling and testing of our products require the use of hazardous materials that are subject to a broad array of environmental, health and safety laws and regulations. Failure to comply could result in regulatory penalties, fines, legal liabilities and the forfeiture of certain tax benefits.",
+        "potentialImpact": "Increased expenses, alteration of manufacturing processes, curtailment of operations or sales."
+      },
+      {
+        "category": "Debt/Capital Structure",
+        "title": "Outstanding Debt and Related Covenants",
+        "description": "As of June 30, 2024, our indebtedness consisted of $575.0 million aggregate principal amount of our 1.75% convertible senior notes due May 1, 2026, $750.0 million aggregate principal amount of our 0.25% convertible senior notes due February 15, 2028, $1,750.0 million aggregate principal amount of our 1.875% convertible senior notes due December 1, 2029, $1,250.0 million aggregate principal amount of senior secured notes due 2030 and an aggregate principal amount of $2,000.0 million of deposits under the Unsecured Customer Refundable Deposit Agreement with Renesas Electronics America Inc. Our ability to pay interest and repay the principal for any outstanding indebtedness is dependent upon our ability to manage our business operations and generate sufficient cash flows to service such debt.",
+        "potentialImpact": "Materially restrict business, adversely affect financial condition, liquidity and results of operations."
+      },
+      {
+        "category": "Governance/Shareholder",
+        "title": "Shareholder activism",
+        "description": "We have been subject to shareholder activism and may be subject to such activism in the future, which could result in substantial costs and divert management’s and our board’s attention and resources from our business. For example, on April 22, 2024, JANA Partners LLC delivered a letter to our board of directors calling for a comprehensive review of strategic alternatives. Responding to actions by activist shareholders, such as potential nominations of candidates for election to our board of directors, requests to pursue a strategic combination or other transaction, or other special requests may disrupt our business and divert the attention of management and employees. In addition, any perceived uncertainties as to our future direction resulting from such a situation could result in the loss of potential business opportunities, be exploited by our competitors, cause concern to our current or potential customers and make it more difficult to attract and retain qualified personnel and business partners, any of which could negatively impact our business. Shareholder activism could result in substantial costs. In addition, actions of activist shareholders may cause significant fluctuations in our stock price based on temporary or speculative market perceptions or other factors that do not necessarily reflect the underlying fundamentals of our business.",
+        "potentialImpact": "Substantial costs, disruption of business, loss of business opportunities, difficulty attracting/retaining personnel, stock price volatility."
+      },
+      {
+        "category": "Financial/Capital Structure",
+        "title": "Capped call transactions and dilution risk",
+        "description": "The capped call transactions may not prevent dilution of our common stock upon conversion of the 2028 Notes or the 2029 Notes. In connection with the pricing of the 2028 Notes and the 2029 Notes, we entered into privately negotiated capped call transactions with the option counterparties. The capped call transactions are expected generally to reduce the potential dilution to our common stock upon any conversion of the 2028 Notes and 2029 Notes and/or offset any potential cash payments we are required to make in excess of the principal amount of the converted 2028 Notes and 2029 Notes, as the case may be, upon conversion of the 2028 Notes and 2029 Notes. If, however, the market price per share of our common stock, as measured under the terms of the capped call transactions, exceeds the cap price of the capped call transactions ($212.04 for the 2028 Notes and $202.538 for the 2029 Notes), there would nevertheless be dilution and/or there would not be an offset of such potential cash payments, in each case, to the extent that such market price exceeds the cap price of the capped call transactions.",
+        "potentialImpact": "Potential dilution of common stock and/or unmitigated cash payments if stock price exceeds cap price."
+      },
+      {
+        "category": "Operational/Business Continuity",
+        "title": "Catastrophic events and disaster recovery",
+        "description": "A disruption or failure of our systems or operations in the event of a natural disaster or severe weather event, including, but not limited to, earthquakes, wildfires, droughts, flooding, tornadoes, hurricanes or tsunamis, health pandemic, such as an influenza outbreak within our workforce, or man-made catastrophic event could cause delays in completing sales, continuing production or performing other critical functions of our business, particularly if a catastrophic event were to occur at our primary manufacturing locations or our subcontractors' locations. Global climate change could result in certain natural disasters occurring more frequently or with greater intensity. Any of these events could severely affect our ability to conduct normal business operations and, as a result, our operating results could be adversely affected. There may also be secondary impacts that are unforeseeable as well, such as impacts to our customers, which could cause delays in new orders, delays in completing sales or even order cancellations.",
+        "potentialImpact": "Delays in sales/production, inability to conduct normal operations, adverse effect on operating results, order cancellations."
+      },
+      {
+        "category": "Human Resources",
+        "title": "Attracting and retaining key employees",
+        "description": "Hiring and retaining qualified personnel is critical to our business, and competition for experienced employees in our industry can be intense. As a global company, this issue is not limited to the United States, but includes our other locations such as Europe and Asia. For example, there is substantial competition for qualified and capable personnel, particularly experienced engineers and technical personnel, which may make it difficult for us to recruit and retain qualified employees. If we are unable to staff sufficient and adequate personnel at our facilities, we may experience lower revenue or increased manufacturing costs, which would adversely affect our results of operations. To help attract, motivate and retain key employees, we use benefits such as stock-based compensation awards. If the value of such awards does not appreciate, as measured by the performance of the price of our common stock or if our stock-based compensation otherwise ceases to be viewed as a valuable benefit, our ability to attract, retain and motivate employees could be weakened, which could harm our business and results of operations.",
+        "potentialImpact": "Lower revenue, increased manufacturing costs, harm to business and results of operations."
+      },
+      {
+        "category": "Market/Stock Price",
+        "title": "Stock price volatility",
+        "description": "Historically, our common stock has experienced substantial price volatility, particularly as a result of significant fluctuations in our revenue, earnings and margins over the past few years, and variations between our actual financial results and the published expectations of analysts. For example, the closing price per share of our common stock on the New York Stock Exchange ranged from a low of $22.08 to a high of $67.94 during the twelve months ended June 30, 2024. If our future operating results or margins are below the expectations of stock market analysts or our investors, our stock price will likely decline. Speculation and opinions in the press or investment community about our strategic position, financial condition, results of operations or significant transactions can also cause changes in our stock price. In addition, competition in some of the markets we address such as electric vehicles or the industrial and energy markets, the ramp up of our business, and the effect of tariffs on our business, may have a dramatic effect on our stock price. Additionally, actions taken by the option counterparties in the capped call transactions entered into in connection with the 2028 Notes and the 2029 Notes may affect our stock price, including the potential modifications of their hedge positions by entering into or unwinding various derivatives with respect to our common stock.",
+        "potentialImpact": "Stock price decline, volatility, potential negative impact on shareholder value."
+      },
+      {
+        "category": "Financial/Investment",
+        "title": "Fluctuations in investment portfolio and interest rates",
+        "description": "We are exposed to market value fluctuations and inherent interest rate risk related to our investment portfolio. We have historically invested portions of our available cash in fixed interest rate securities such as high-grade corporate debt, commercial paper, municipal bonds, certificates of deposit, government securities and other fixed interest rate investments. The primary objective of our cash investment policy is preservation of principal. However, these investments are generally not Federal Deposit Insurance Corporation insured and may lose value and/or become illiquid regardless of their credit rating. In addition, we currently hold the MACOM Shares that we acquired in connection with the RF Business Divestiture. These shares are subject to risks inherent in the business of that company and to trends affecting the equity markets as a whole. As more fully discussed in Note 3, 'Discontinued Operations' in our consolidated financial statements in Item 8 of this Annual Report, the shares are also subject to restrictions on transfer prior to the RTP Fab Transfer and one quarter of the shares are subject to the risk of forfeiture in the event that the RTP Fab Transfer is not completed within four years following the closing of the transaction. Should the value of these shares decline, the related write down in value could have a material adverse effect on our financial condition and results of operations. From time to time, we have also made investments in public and private companies that engage in complementary businesses.",
+        "potentialImpact": "Impairment of investments, lower investment income, material adverse effect on financial condition and results of operations."
+      },
+      {
+        "category": "Operational/Supply Chain",
+        "title": "Volatility and uncertainty in customer demand, supply chains, worldwide economies and financial markets from infectious disease outbreaks",
+        "description": "We have significant manufacturing operations in the United States and contract manufacturing operations in Asia, which may be affected by the outbreak of infectious diseases or other similar public health threats and the measures to try to contain it. For example, during the COVID-19 pandemic, we experienced some limited disruptions in our supply chain and may experience similar disruptions in the future in the event of a pandemic. Restrictions on access to our manufacturing facilities or on our support operations or workforce, or similar limitations for our vendors and suppliers, and restrictions or disruptions of transportation, such as reduced availability of air transport, port closures, and increased border controls or closures in connection with future outbreaks of infectious diseases or similar public health events could limit our ability to meet customer demand, lead to increased costs and have a material adverse effect on our financial condition and results of operations.",
+        "potentialImpact": "Limited ability to meet customer demand, increased costs, material adverse effect on financial condition and results of operations."
+      },
+      {
+        "category": "Legal/Regulatory",
+        "title": "Exclusive forum provisions in bylaws",
+        "description": "Our amended and restated bylaws provide that, unless we consent in writing to the selection of an alternative forum, the state courts of North Carolina will be the sole and exclusive forum for substantially all disputes between us and our shareholders, which could limit our shareholders’ ability to obtain a favorable judicial forum for disputes with us or our directors, officers, or employees or agents. If a court were to find the choice of forum provision contained in our amended and restated bylaws to be inapplicable or unenforceable in an action, we may incur additional costs associated with resolving such action in other jurisdictions, which could harm our business, results of operations, and financial condition. Even if we are successful in defending against these claims, litigation could result in substantial costs and be a distraction to management and other employees.",
+        "potentialImpact": "Limits on shareholder litigation options, potential for increased costs and distraction from litigation."
+      },
+      {
+        "category": "Cybersecurity",
+        "title": "Cybersecurity threats",
+        "description": "We maintain a cyber risk management program designed to identify, assess, manage, mitigate and respond to cybersecurity threats. As of the date of this Annual Report, we have not identified a material cyber incident that would have a material impact on our business, results of operations, or financial condition; however, the occurrence or scope of such events is not always immediately apparent and there can be no assurance that we will not suffer a material cyber incident in the future.",
+        "potentialImpact": "Potential material impact on business, results of operations, or financial condition in the event of a significant cyber incident."
+      },
+      {
+        "category": "Legal",
+        "title": "Patent Infringement Lawsuit by Purdue University",
+        "description": "In October 2021, The Trustees of Purdue University filed a complaint against the Company in the U.S. District Court for the Middle District of North Carolina, alleging infringement of U.S. Patent Nos. 7,498,633 and 8,035,112. Purdue alleges willful infringement and seeks approximately $30 million in damages, interest, treble damages, and attorneys’ fees. Purdue withdrew all allegations as to the '112 Patent in August 2022. The Company denies the remaining allegations and has developed defenses including non-infringement, invalidity, and unenforceability. Discovery is expected to conclude in August 2024, with a trial likely in 2025. The possible range of loss is not estimable at this time.",
+        "potentialImpact": "An unfavorable ruling could result in monetary damages or injunctions prohibiting the sale of certain products, potentially causing a material adverse impact on the Company’s business, results of operations, and financial position."
+      }
+    ],
+    "managementHighlights": {
+      "businessOverview": "Wolfspeed, Inc. (the Company) is an innovator of wide bandgap semiconductors, focused on silicon carbide materials and devices for power applications. The Company’s product families include silicon carbide materials and power devices targeted for various applications such as electric vehicles, fast charging and renewable energy and storage. The Company’s continuing operations consist of power devices, which are used in electric vehicles, motor drives, power supplies, solar and transportation applications and silicon carbide and gallium nitride (GaN) materials, which are targeted for customers who use them to manufacture products for RF, power and other applications. The majority of the Company's products are manufactured at its production facilities located in North Carolina, New York and Arkansas. The Company also uses contract manufacturers for certain products and aspects of product fabrication, assembly and packaging. The Company operates research and development facilities in North Carolina, Arkansas and New York. Wolfspeed, Inc. is a North Carolina corporation established in 1987, and its headquarters are in Durham, North Carolina.",
+      "keyTrends": "",
+      "liquidityAssessment": "",
+      "outlookSummary": ""
+    },
+    "CriticalAuditMatters": [
+      {
+        "MatterTtile": "Reserves for Distributor Programs - Ship and Debit",
+        "MatterDescription": "As described in Note 2 to the consolidated financial statements, products are sold to distributors at negotiated prices and the distributors are required to pay for the products purchased within the Company’s standard commercial terms. Certain distributors are provided customer pricing arrangements under the Company’s “ship and debit” program. Distributor sales approximate a quarter of total net revenue of $807.2 million for the year ended June 30, 2024. Management makes estimates of changes in selling prices when the corresponding product ships. These estimates are calculated based upon historical experience, product shipment analysis, current economic conditions, on-hand inventory at the distributor, and customer contractual arrangements. Accordingly, estimates for these rights are recognized at the time of sale as a contract liability and a reduction of product revenue. The associated reserves for ship and debit program to distributors make up a significant portion of the contract liabilities and distributor-related reserves account balance of $62.3 million. The principal considerations for our determination that performing procedures relating to ship and debit reserves for distributor programs is a critical audit matter are the high degree of auditor effort in performing procedures and evaluating management’s significant assumptions related to current economic conditions, historical experience and on-hand inventory at the distributor. Addressing the matter involved performing procedures and evaluating audit evidence in connection with forming our overall opinion on the consolidated financial statements. These procedures included testing the effectiveness of controls relating to management’s estimate of the reserves for the ship and debit program. These procedures also included, among others (i) testing management’s process for determining the estimate for ship and debit reserve, (ii) testing the completeness and accuracy of data inputs to the ship and debit reserve calculation, and (iii) evaluating the reasonableness of the significant assumptions used by management related to current economic conditions, historical experience and on-hand inventory at the distributor. Evaluating management’s significant assumptions related to current economic conditions, historical experience and on-hand inventory at the distributor involved evaluating whether the significant assumptions used by management were reasonable considering management’s historical claim experience and whether the assumptions were consistent with evidence obtained in other areas of the audit."
+      }
+    ],
+    "Debt": [
+      {
+        "DebtOrFacilityCategory": "Convertible Senior Notes",
+        "Discussion": "As of June 30, 2024, the company had $575.0 million aggregate principal amount of 1.75% convertible senior notes due May 1, 2026, $750.0 million aggregate principal amount of 0.25% convertible senior notes due February 15, 2028, and $1,750.0 million aggregate principal amount of 1.875% convertible senior notes due December 1, 2029. The 2026 Notes and 2028 Notes were sold in offerings in 2020 and 2022 respectively, with net proceeds of approximately $561.4 million and $732.3 million. The 2029 Notes were sold in 2022 with net proceeds of approximately $1,718.6 million. The 2029 Notes are convertible with specific redemption and conversion terms, including redemption if the stock price is at least 130% of the conversion price for 20 trading days in a 30-day period. Holders may require repurchase upon fundamental changes. The Company entered into capped call transactions related to the 2029 Notes to reduce dilution. The 2026 and 2028 Notes were separated into liability and equity components at issuance, with amortization of debt issuance costs over their terms. As of June 30, 2024, the principal amount outstanding for the 2026, 2028, and 2029 Notes was $3,075.0 million with unamortized discount and issuance costs of $40.1 million, net carrying amount $3,034.9 million. None of these notes are convertible at holders' option through September 30, 2024."
+      },
+      {
+        "DebtOrFacilityCategory": "Senior Secured Notes",
+        "Discussion": "As of June 30, 2024, the company had $1,250.0 million aggregate principal amount of senior secured notes due 2030. These 2030 Senior Notes were sold on June 23, 2023, with net proceeds of approximately $1,149.3 million after debt issuance costs and original issue discount. They bear interest rates escalating from 9.875% to 11.875% per annum over the term. The notes mature on June 23, 2030, or earlier if certain 2029 Notes remain outstanding. The Company may issue additional notes up to $750.0 million. The indenture requires repurchase offers upon certain asset sales and change of control events. Prepayment is allowed subject to premiums. The Company must maintain liquidity covenants and was in compliance as of June 30, 2024. Debt issuance costs and discounts are amortized over the term at an effective interest rate of 12.4%."
+      },
+      {
+        "DebtOrFacilityCategory": "Unsecured Customer Refundable Deposit Agreement (CRD Agreement)",
+        "Discussion": "As of June 30, 2024, the company had $2,000.0 million aggregate principal amount of deposits under the Unsecured Customer Refundable Deposit Agreement with Renesas Electronics America Inc. The agreement was entered in July 2023 for up to $2 billion in unsecured deposits. Deposits were received in three tranches totaling $2 billion by June 26, 2024. The agreement matures July 5, 2033, with repayment of principal and accrued interest. Interest is at a base rate of 6% per annum, with potential increases to 10% or 15% if supply targets are not met. The Company may prepay voluntarily at 106% of principal. Upon change of control, the customer may require prepayment at a variable price. Debt issuance costs are amortized over the term at an effective interest rate of 6.3%. The Company was in compliance with all covenants as of June 30, 2024."
+      },
+      {
+        "DebtOrFacilityCategory": "2023 Convertible Notes",
+        "Discussion": "The Company sold $575.0 million aggregate principal amount of 0.875% convertible senior notes due September 1, 2023 in 2018, with net proceeds of approximately $562.1 million. The Company repurchased approximately $150.2 million of these notes in 2020. In December 2021, the Company called all outstanding 2023 Notes for redemption, which were converted into approximately 7.1 million shares of common stock with cash for fractional shares. The fair value of shares issued upon conversion was $788.0 million."
+      }
+    ],
+    "CapitalStructure": [
+      {
+        "FacilityOrSecurityName": "1.75% Convertible Senior Notes due May 1, 2026",
+        "AmountOutstanding": "$575.0 million",
+        "Maturity": "May 1, 2026",
+        "InterestRate": "1.75%",
+        "Collateral": "",
+        "CommitmentsUnfunded": "",
+        "Description": "Convertible senior notes issued in 2020, with an initial conversion price of approximately $47.32 per share."
+      },
+      {
+        "FacilityOrSecurityName": "0.25% Convertible Senior Notes due February 15, 2028",
+        "AmountOutstanding": "$750.0 million",
+        "Maturity": "February 15, 2028",
+        "InterestRate": "0.25%",
+        "Collateral": "",
+        "CommitmentsUnfunded": "",
+        "Description": "Convertible senior notes issued in 2022, with an initial conversion price of approximately $127.22 per share."
+      },
+      {
+        "FacilityOrSecurityName": "1.875% Convertible Senior Notes due December 1, 2029",
+        "AmountOutstanding": "$1,750.0 million",
+        "Maturity": "December 1, 2029",
+        "InterestRate": "1.875%",
+        "Collateral": "",
+        "CommitmentsUnfunded": "",
+        "Description": "Convertible senior notes issued in 2022."
+      },
+      {
+        "FacilityOrSecurityName": "Senior Secured Notes due 2030",
+        "AmountOutstanding": "$1,250.0 million",
+        "Maturity": "June 23, 2030 or September 1, 2029 (if more than $175.0 million of 2029 Notes remain outstanding)",
+        "InterestRate": "9.875% (first 3 years), 10.875% (fourth year), 11.875% (thereafter)",
+        "Collateral": "Secured by a perfected first lien security interest in certain assets; superior in right of payment to unsecured indebtedness to the extent of the collateral",
+        "CommitmentsUnfunded": "May issue up to $750.0 million additional 2030 Senior Notes",
+        "Description": "Senior secured notes with net carrying amount of $1,149.5 million as of June 25, 2023 and $3,126.2 million (including CRD Agreement deposits) as of June 30, 2024."
+      },
+      {
+        "FacilityOrSecurityName": "Unsecured Customer Refundable Deposit Agreement (CRD Agreement) with Renesas Electronics America Inc.",
+        "AmountOutstanding": "$2,000.0 million",
+        "Maturity": "July 5, 2033",
+        "InterestRate": "6% per annum (base rate), with potential for 10% or 15% variable rate",
+        "Collateral": "",
+        "CommitmentsUnfunded": "Option to receive additional deposits up to $500 million at the Company's request during 2024 calendar year (fully drawn as of June 30, 2024)",
+        "Description": "Unsecured customer refundable deposit agreement with a customer, bearing interest and repayable at maturity or upon certain events."
+      },
+      {
+        "FacilityOrSecurityName": "Outstanding Convertible Notes (2026, 2028, 2029 Notes)",
+        "AmountOutstanding": "$3,075.0 million (principal as of June 30, 2024)",
+        "Maturity": "",
+        "InterestRate": "",
+        "Collateral": "",
+        "CommitmentsUnfunded": "",
+        "Description": "Convertible notes consisting of 2026 Notes, 2028 Notes, and 2029 Notes. Net carrying amount as of June 30, 2024 is $3,034.9 million after unamortized discount and issuance costs."
+      },
+      {
+        "FacilityOrSecurityName": "Supply Commitment Agreement (Supplier 1)",
+        "AmountOutstanding": "Minimum commitment of $200.0 million over five years; $36.7 million purchased in fiscal 2024, $12.3 million in fiscal 2023; future minimum purchases: $8.2 million (2025), $36.0 million (2026), $50.1 million (2027), $73.7 million (2028)",
+        "Maturity": "Fiscal 2028",
+        "InterestRate": "",
+        "Collateral": "",
+        "CommitmentsUnfunded": "",
+        "Description": "Agreement with a supplier requiring minimum product purchases on a take-or-pay basis. Includes quarterly capacity reservation deposits totaling $60.0 million through Q2 fiscal 2026, refundable through credits on future purchases. $32.9 million paid in fiscal 2024, $5.5 million in fiscal 2023."
+      },
+      {
+        "FacilityOrSecurityName": "Supply Commitment Agreement (Supplier 2)",
+        "AmountOutstanding": "Minimum commitment of $86.4 million over the life of the contract; $19.2 million purchased in fiscal 2024; future minimum purchases: $28.8 million (2025), $28.8 million (2026), $9.6 million (2027)",
+        "Maturity": "Fiscal 2027",
+        "InterestRate": "",
+        "Collateral": "",
+        "CommitmentsUnfunded": "",
+        "Description": "Agreement with a supplier entered in Q2 fiscal 2024 requiring minimum product purchases on a take-or-pay basis."
+      }
+    ],
+    "Liquidity": {
+      "assessmentSummary": "We require cash to fund our operating expenses, debt service costs, working capital requirements and capital expenditures, including the purchase of goods and services in the ordinary course of business such as raw materials, supplies and capital equipment, as well as outlays for research and development, strategic acquisitions and investments. Our principal sources of liquidity are cash on hand and marketable securities. Based on past performance and current expectations, we believe our current working capital will be adequate to meet our cash needs for at least the next 12 months. With the strength of our working capital position, we believe that we have the ability to continue to invest in the near-term expansion of our production capacity, further develop our product portfolio and, when necessary or appropriate, make selective acquisitions or other strategic investments to strengthen our product portfolio or secure key intellectual properties. However, even with our strong working capital position, we expect to need additional funding to fully complete all of our intended capacity expansions.",
+      "operatingCashFlow": -671.3,
+      "workingCapital": 0,
+      "currentRatio": 0,
+      "creditFacilities": "",
+      "capitalExpenditures": {
+        "amount": 1301.4,
+        "notes": "The increase in net cash used in investing activities in fiscal 2024 as compared to fiscal 2023 was primarily due to an increase in net property and equipment purchases of $1,301.4 million, partially offset by an increase in net proceeds from maturities and sales of short-term investments.",
+        "expectations": "For fiscal 2025, we target approximately $1.2 billion to $1.4 billion of capital investment, which is primarily related to capacity and infrastructure projects to support longer‑term growth and strategic priorities. This target is highly dependent on the timing and overall progress on the Mohawk Valley Fab and the construction of our new materials manufacturing facility in Siler City, North Carolina. Compared to fiscal 2024, our capital investment related to these new facilities during the next 12 months will be significantly less and will continue to decrease substantially as we complete the majority of construction related to this phase of our expansion efforts."
+      }
+    }
+  },
+  "extraction_metadata": {
+    "field_metadata": {},
+    "usage": {
+      "num_pages_extracted": 99,
+      "num_document_tokens": 100956,
+      "num_output_tokens": 22315
+    }
+  }
+}

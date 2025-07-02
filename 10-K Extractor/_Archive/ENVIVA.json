@@ -1,0 +1,613 @@
+{
+    "run_id": "a94b253e-e658-4d26-9bde-a36325aa47c4",
+    "data": {
+        "filingInfo": {
+            "filingType": "10-K",
+            "filingDate": "2024-07-01",
+            "reportingPeriodEnd": "2023-12-31",
+            "fiscalYear": null,
+            "fiscalQuarter": null,
+            "cik": "1592057",
+            "documentUrl": "https://www.sec.gov/Archives/edgar/data/1592057/000159205724000036/eva-20231231.htm"
+        },
+        "companyProfile": {
+            "name": "Enviva Inc.",
+            "ticker": "EVA",
+            "isAdr": false,
+            "reportingCurrency": "USD",
+            "location": "7272 Wisconsin Avenue, Suite 1800, Bethesda, Maryland 20814, Bethesda, MD, USA",
+            "incorporationLocation": "Delaware",
+            "businessDescription": "Enviva Inc. supplies utility-grade wood pellets primarily to major power generators under long-term, take-or-pay off-take contracts. We procure wood fiber and process it into utility-grade wood pellets and load the finished wood pellets into railcars, trucks, and barges for transportation to deep-water marine terminals, where they are received, stored, and ultimately loaded onto oceangoing vessels for delivery to our customers principally in Japan, the United Kingdom (the \u00153\u00152), and the European Union (the \u00152\u00152). We own and operate ten industrial-scale wood pellet production plants located in the Southeastern United States. In addition to the volumes from our plants, we also procure wood pellets from third parties. Wood pellets are exported from our wholly owned deep-water marine terminal at the Port of Chesapeake, Virginia, terminal assets at the Port of Wilmington, North Carolina, and at the Port of Pascagoula, Mississippi, and from third-party deep-water marine terminals in Mobile, Alabama, Panama City, Florida, and Savannah, Georgia under a short-term contract, a long-term contract, and a lease and associated terminal services agreement, respectively.",
+            "sector": null,
+            "industry": null,
+            "sicCode": null,
+            "employeeCount": "1,390",
+            "exchanges": null,
+            "auditor": "Ernst & Young LLP"
+        },
+        "financialHighlights": {
+            "periodEnd": "2023-12-31",
+            "comparisonPeriodEnd": null,
+            "currency": null,
+            "unit": null,
+            "revenue": 1177853,
+            "revenuePriorPeriod": 1094276,
+            "revenueGrowth": null,
+            "grossProfit": null,
+            "grossMargin": null,
+            "operatingIncome": null,
+            "operatingMargin": null,
+            "netIncome": -685810,
+            "netMargin": null,
+            "eps": null,
+            "dilutedEps": null,
+            "ebitda": null,
+            "freeCashFlow": null
+        },
+        "financialStatements": {
+            "incomeStatement": {
+                "periodType": null,
+                "revenue": 1177853,
+                "costOfRevenue": 1218111,
+                "grossProfit": -40258,
+                "operatingExpenses": 117179,
+                "rAndD": 0,
+                "sgAndA": 117179,
+                "operatingIncome": -507870,
+                "interestExpense": 181987,
+                "incomeTaxExpense": 0,
+                "netIncome": -685810,
+                "basicEps": -9.64,
+                "dilutedEps": -9.64,
+                "sharesOutstandingBasic": 71236,
+                "sharesOutstandingDiluted": 71236
+            },
+            "balanceSheet": {
+                "asOfDate": "2023-12-31",
+                "cashAndEquivalents": 177119,
+                "shortTermInvestments": 0,
+                "accountsReceivable": 194000000,
+                "inventory": 69763000,
+                "totalCurrentAssets": 642129,
+                "propertyPlantEquipment": 1674987000,
+                "goodwill": 0,
+                "intangibleAssets": 0,
+                "totalAssets": 2530809,
+                "accountsPayable": 24343,
+                "shortTermDebt": 1806585,
+                "totalCurrentLiabilities": 2426090,
+                "longTermDebt": 16300,
+                "totalLiabilities": 2691307,
+                "totalEquity": -160498
+            },
+            "cashFlowStatement": {
+                "periodType": null,
+                "netIncome": -685810,
+                "depreciationAmortization": 166112,
+                "stockBasedCompensation": 0,
+                "operatingCashFlow": -65796,
+                "capitalExpenditures": -301300,
+                "acquisitions": 0,
+                "investingCashFlow": -301300,
+                "debtIssuance": 102900,
+                "debtRepayment": -1134528,
+                "stockRepurchase": 0,
+                "dividendsPaid": -57104,
+                "financingCashFlow": 420245,
+                "freeCashFlow": 235504
+            }
+        },
+        "businessSegments": [
+            {
+                "name": "Southampton plant",
+                "description": "Permanently shut down the second, underperforming dryer line.",
+                "revenue": null,
+                "revenuePercentage": null,
+                "operatingIncome": null,
+                "operatingMargin": null,
+                "yearOverYearGrowth": null,
+                "outlook": null
+            },
+            {
+                "name": "Bond plant",
+                "description": "Ceased development of the Bond plant, which was in the early stages of development, as of December 31, 2023.",
+                "revenue": null,
+                "revenuePercentage": null,
+                "operatingIncome": null,
+                "operatingMargin": null,
+                "yearOverYearGrowth": null,
+                "outlook": null
+            }
+        ],
+        "geographicSegments": null,
+        "keyRisks": [
+            {
+                "category": "Legal/Bankruptcy",
+                "title": "The Chapter 11 Cases may have a material adverse impact on our business, financial condition and results of operations.",
+                "description": "The Chapter 11 Cases are ongoing and could have a material adverse effect on our business, financial condition, and results of operations. Management will be required to spend significant time on restructuring, which may limit focus on ongoing operations. Bankruptcy Court protection and operating as debtors-in-possession may make it more difficult to retain management and key personnel. Customers and suppliers may lose confidence in our ability to reorganize, seek alternative relationships, renegotiate agreements, or require financial assurances. Other significant risks include the effects of the filing on our business and interests of various constituents, Bankruptcy Court rulings, ability to operate within restrictions and liquidity limitations, ability to maintain strategic control, length of time under Chapter 11 protection, increased advisory costs, restrictions on business strategies, ability to complete financing and satisfy conditions to consummation of the Plan, potential adverse effects on business, cash flows, liquidity, financial condition, and results of operations, ultimate outcome of the Chapter 11 Cases, ultimate treatment of existing equity, potential material adverse effects of claims not discharged, uncertainties regarding reactions of customers, suppliers, and service providers, ability to retain and motivate key personnel, and ability to achieve stated goals and continue as a going concern.",
+                "potentialImpact": "Significant decline in revenues, profitability, and cash flow; loss of key personnel; inability to execute business strategies; material adverse effect on business, cash flows, liquidity, financial condition, and results of operations; possible liquidation of assets."
+            },
+            {
+                "category": "Legal/Bankruptcy",
+                "title": "Delays in the Chapter 11 Cases may increase the risks of our being unable to reorganize our business and emerge from bankruptcy and increase our costs associated with the bankruptcy process.",
+                "description": "Prolonged Chapter 11 proceedings could adversely affect relationships with customers, subcontractors, suppliers, and employees, which could adversely affect business, competitive position, financial condition, liquidity, and results of operations and ability to continue as a going concern. A weakening of financial condition, liquidity, and results of operations could adversely affect ability to implement the Plan. If unable to consummate the Plan, may be forced to liquidate assets.",
+                "potentialImpact": "Adverse effect on business, competitive position, financial condition, liquidity, and results of operations; possible liquidation of assets."
+            },
+            {
+                "category": "Legal/Bankruptcy",
+                "title": "Adverse publicity in connection with the Chapter 11 Cases or otherwise could negatively affect our business.",
+                "description": "Adverse publicity or news coverage relating to the business, including in connection with the Chapter 11 Cases, may negatively impact efforts to establish and promote a positive image after emergence from Chapter 11, including with respect to current and future employees, customers, suppliers, and service providers.",
+                "potentialImpact": "Negative impact on reputation, employee and customer relationships."
+            },
+            {
+                "category": "Legal/Bankruptcy",
+                "title": "Trading in our common stock during the pendency of the Chapter 11 Cases is highly speculative and poses substantial risks and the Chapter 11 Cases may render the common stock worthless.",
+                "description": "All indebtedness is senior in priority to existing common stock. The Proposed Plan contemplates that holders of equity interests, including common stock, would be entitled to only a de minimis recovery, significantly less than previous trading value. Potential revisions to the Plan may result in equity receiving no recovery. Any trading in common stock during the Chapter 11 Cases is highly speculative and poses substantial risk.",
+                "potentialImpact": "Common stock may become worthless; substantial risk to purchasers of common stock."
+            },
+            {
+                "category": "Legal/Regulatory",
+                "title": "There can be no assurance that we will be able to regain compliance or comply with the continued listing standards of the New York Stock Exchange, which could result in the delisting of our securities, limit investors’ ability to make transactions in our securities, and subject us to additional trading restrictions.",
+                "description": "On January 23, 2024, received notice from NYSE for non-compliance with minimum share price criteria. On April 2, 2024, received notice for delay in filing Annual Report. If fail to regain compliance, NYSE may commence suspension and delisting procedures. If market capitalization falls below certain thresholds, NYSE may also commence suspension and delisting procedures.",
+                "potentialImpact": "Delisting from NYSE; reduced liquidity; limited market quotations; possible classification as 'penny stock'; negative impact on business relationships."
+            },
+            {
+                "category": "Legal/Bankruptcy",
+                "title": "Certain claims may not be subject to discharge in bankruptcy",
+                "description": "It is possible that certain claims may not be subject to discharge or that parties in subsequent litigation could argue that they were not ultimately discharged. Such claims could be asserted against the reorganized entities and may have an adverse effect on our business, cash flows, liquidity, financial condition, and results of operations on a post-reorganization basis.",
+                "potentialImpact": "Adverse effect on business, cash flows, liquidity, financial condition, and results of operations post-reorganization"
+            },
+            {
+                "category": "Legal/Bankruptcy",
+                "title": "Chapter 11 Cases limit management flexibility",
+                "description": "While operating as debtor-in-possession under supervision by the Bankruptcy Court, the company is required to obtain approval of the Bankruptcy Court, and in some cases certain lenders, prior to engaging in activities or transactions outside the ordinary course of business. This process may delay major transactions and limit the ability to respond quickly to opportunities and events.",
+                "potentialImpact": "Delay of major transactions and limited ability to respond quickly to opportunities and events"
+            },
+            {
+                "category": "Legal/Bankruptcy",
+                "title": "Board of directors composition may change significantly after bankruptcy",
+                "description": "The composition of the board of directors may change significantly following the Chapter 11 Cases. New directors may have different backgrounds, experiences, and perspectives, which may result in different strategies and plans for the company.",
+                "potentialImpact": "Future strategy and plans may differ materially from those of the past"
+            },
+            {
+                "category": "Tax",
+                "title": "Limitations on net operating loss carryforwards due to ownership change",
+                "description": "If the company experiences an 'ownership change' as defined in section 382 of the U.S. Internal Revenue Code, the ability to use net operating loss carryforwards and certain other tax attributes may be substantially limited.",
+                "potentialImpact": "Negative impact on financial position and results of operations"
+            },
+            {
+                "category": "Tax",
+                "title": "Reduction of net operating losses due to cancellation of indebtedness income",
+                "description": "Net operating losses and certain other tax attributes will be reduced by the amount of any cancellation of indebtedness income recognized as a result of the implementation of the Plan.",
+                "potentialImpact": "Uncertainty regarding the amount of net operating loss carryforwards and other tax attributes available to offset future taxable income"
+            },
+            {
+                "category": "Impairment",
+                "title": "Goodwill and other long-lived assets are subject to impairment risk",
+                "description": "During the fourth quarter of 2023, the Company performed an interim goodwill impairment test, which indicated that the carrying value of its sole reporting unit was above its fair value. The Company recorded a material non-cash pretax impairment charge related to goodwill of $103.9 million in the fourth quarter of 2023. Assessment for potential impairment of other long-lived assets requires management to make judgments on significant estimates and assumptions.",
+                "potentialImpact": "Significant charge in consolidated financial statements and negative impact on financial condition and results of operations"
+            },
+            {
+                "category": "Customer Concentration",
+                "title": "Revenue concentration among a few customers",
+                "description": "The company expects to derive the majority of its revenues from four customers in 2024, three of which are located in Europe and one in Japan. This creates counterparty and geographic concentration risk.",
+                "potentialImpact": "Material adverse effect on results of operations, business, and financial position if customer base is not diversified"
+            },
+            {
+                "category": "Contract Risk",
+                "title": "Risk of contract termination or renegotiation",
+                "description": "Certain off-take contracts provide customers with a right of termination for various events. Termination payments may not fully compensate for losses, and financial distress of counterparties may prevent full compensation.",
+                "potentialImpact": "Material adverse effect on results of operations, business, and financial position"
+            },
+            {
+                "category": "Contract Risk",
+                "title": "Inability to renegotiate long-term contracts on favorable terms",
+                "description": "Ongoing restructuring through Chapter 11 involves renegotiating many long-term contracts. The company may be unable to complete these negotiations on proposed terms or at all.",
+                "potentialImpact": "Material adverse effect on results of operations, business, and financial position"
+            },
+            {
+                "category": "Pricing Risk",
+                "title": "Long-term contracts may not fully offset cost increases or allow benefit from high market prices",
+                "description": "Long-term off-take contracts typically set base prices subject to annual escalation and other adjustments, but cost pass-through mechanisms may not reflect actual changes to costs. During periods of high operating costs or low market prices, profitability may decrease.",
+                "potentialImpact": "Adverse effect on results of operations, business, and financial position"
+            },
+            {
+                "category": "Legal/Regulatory",
+                "title": "Risks related to legal proceedings and governmental inquiries",
+                "description": "The business is subject to litigation, regulatory investigations, and claims arising in the normal course of operations. These matters may be difficult to assess or quantify and may result in additional legal and other costs.",
+                "potentialImpact": "Adverse effect on business, negative publicity, reputation damage, or diversion of resources"
+            },
+            {
+                "category": "Regulatory",
+                "title": "Changes in laws or government policies, incentives, and taxes related to low-carbon and renewable energy",
+                "description": "Changes in governmental policies that support the use of biomass, such as taxes, tariffs, or incentives, may reduce demand for wood pellets. Regulatory changes may also require additional pollution control technology or compliance with new sustainability criteria.",
+                "potentialImpact": "Substantially lower demand for products, increased operational costs, and material adverse effect on results of operations, business, and financial position"
+            },
+            {
+                "category": "Regulatory",
+                "title": "Challenges or delays in issuance of air permits or failure to comply with permits",
+                "description": "Delays in obtaining air permits or failure to comply with permit requirements could impair the ability to operate or expand production plants. New permits may require additional expenses or limit operations.",
+                "potentialImpact": "Material adverse effect on results of operations, business, and financial position"
+            },
+            {
+                "category": "Regulatory/Environmental",
+                "title": "Legislative and regulatory initiatives relating to forestry products and potential litigation",
+                "description": "New or modified laws or regulations at federal, state, or local levels could reduce forestry operations in areas where raw materials are procured, preventing purchase of raw materials in an economic manner. Future regulation or litigation concerning timberlands, endangered species, biodiversity, or wildfires could also reduce raw material availability.",
+                "potentialImpact": "Negative impact on business, financial condition, and results of operations"
+            },
+            {
+                "category": "Regulatory",
+                "title": "Changes in the treatment of biomass",
+                "description": "Government agencies may issue new rules to regulate sustainability criteria for biomass. For example, the EU's RED III and EUDR introduce new requirements for renewable energy and raw material sourcing. Failure to comply could decrease demand for products.",
+                "potentialImpact": "Material adverse effect on results of operations, business, and financial condition"
+            },
+            {
+                "category": "Environmental/Regulatory",
+                "title": "Stringent environmental and occupational health and safety laws and regulations",
+                "description": "Operations are subject to stringent environmental, health, and safety laws and regulations, which may require significant capital and operating expenditures. Failure to comply may result in penalties, remedial obligations, or suspension of operations.",
+                "potentialImpact": "Material increased costs and liabilities, impairment of business operations, and delay or prevention of expansion"
+            },
+            {
+                "category": "Reputational/Regulatory",
+                "title": "Actions of special interest groups",
+                "description": "Special interest groups focused on environmental issues are actively lobbying, litigating, and taking other actions to increase regulation of, reduce, or eliminate incentives for biomass. Such efforts could materially adversely affect the company.",
+                "potentialImpact": "Material adverse effect on results of operations, business, and financial condition"
+            },
+            {
+                "category": "ESG/Reputational",
+                "title": "Increasing attention to ESG matters",
+                "description": "Social and political attention to climate change and ESG matters may result in increased costs, changes in demand, enhanced compliance obligations, or other negative impacts. Unfavorable ESG ratings or negative sentiment could impact share price and access to capital.",
+                "potentialImpact": "Negative impact on financial condition, reputation, employee recruitment/retention, and access to capital"
+            },
+            {
+                "category": "Legal/ESG",
+                "title": "Litigation risk related to ESG disclosures and greenwashing",
+                "description": "Public statements regarding ESG matters are subject to scrutiny and potential litigation for misleading or false claims. The company has faced a securities class action lawsuit alleging misleading statements regarding ESG practices, which was dismissed.",
+                "potentialImpact": "Increased litigation risks, costs, negative sentiment, and diversion of investments"
+            },
+            {
+                "category": "Operational",
+                "title": "Delays or cost overruns in construction projects",
+                "description": "Delays or unexpected developments in completing construction projects, such as the Epes facility, could prevent projects from commencing operations or meeting expectations. Financing is subject to progress and timing of Chapter 11 Cases.",
+                "potentialImpact": "Material adverse impact on liquidity, results of operations, business, and financial position"
+            },
+            {
+                "category": "Operational",
+                "title": "Dependence on infrastructure at terminals and ports",
+                "description": "Substantially all production is dependent on infrastructure at owned, leased, and third-party-operated terminals. Catastrophic failure or port closures could prevent fulfillment of obligations and increase transportation costs.",
+                "potentialImpact": "Material adverse effect on business, financial condition, and results of operations"
+            },
+            {
+                "category": "Operational",
+                "title": "Failure to maintain effective quality control systems",
+                "description": "Significant failure or deterioration of quality control systems could lead to rejection of product by customers.",
+                "potentialImpact": "Material adverse effect on business, financial condition, and results of operations"
+            },
+            {
+                "category": "Operational",
+                "title": "Operating hazards and other operational risks",
+                "description": "Production of a combustible product presents risks of fires, explosions, and other hazards. Severe weather and natural disasters could damage facilities and forests, disrupt operations, and increase costs.",
+                "potentialImpact": "Material adverse effect on financial condition, results of operations, and cash available for dividends"
+            },
+            {
+                "category": "Operational/Capital Expenditure",
+                "title": "Need for substantial capital expenditures to maintain and improve facilities",
+                "description": "Investment in assets and facilities may be insufficient to preserve required operating profile. Capital projects may be capital-intensive or suffer cost overruns.",
+                "potentialImpact": "Material adverse effect on results of operations, business, financial position, and ability to generate cash flows"
+            },
+            {
+                "category": "Seasonality",
+                "title": "Business and operating results are subject to seasonal fluctuations",
+                "description": "Cost of producing wood pellets is higher in winter due to increased raw material costs and lower product yield. Demand for wood pellets is higher in winter, but costs may reduce gross margin.",
+                "potentialImpact": "Adverse effect on business, financial condition, and results of operations; less meaningful quarter-to-quarter comparisons"
+            },
+            {
+                "category": "Market/Raw Materials",
+                "title": "Significant increases in cost or decreases in availability of raw materials or sourced wood pellets",
+                "description": "Reliance on third parties for wood fiber exposes the company to price volatility and unavailability. Delays or disruptions in obtaining wood fiber may result from various factors affecting suppliers.",
+                "potentialImpact": "Lower revenue, operating profits, and cash flows; inability to meet commitments to customers"
+            },
+            {
+                "category": "Credit Risk",
+                "title": "Exposure to credit risk of contract counterparties",
+                "description": "Risk of loss from nonpayment or nonperformance by contract counterparties, including long-term off-take customers and suppliers. Credit procedures may not fully eliminate counterparty credit risk.",
+                "potentialImpact": "Adverse impact on results of operations, business, financial position, and cash generated from operations"
+            },
+            {
+                "category": "Infrastructure/Transportation",
+                "title": "Impacts to cost or availability of transportation and other infrastructure",
+                "description": "Disruptions or increases in cost of transportation services and infrastructure could increase costs, impair ability to deliver products, and may constitute force majeure under customer contracts.",
+                "potentialImpact": "Reduced revenues, potential production halts, and adverse effect on business"
+            },
+            {
+                "category": "Operational",
+                "title": "Inability to find alternative transportation providers",
+                "description": "We are unable to find alternative transportation providers, it could have a material adverse effect on our results of operations, business and financial position, and cash generated from our operations.",
+                "potentialImpact": "Material adverse effect on results of operations, business, financial position, and cash generated from operations."
+            },
+            {
+                "category": "Market",
+                "title": "Increased competition in wood pellet industry",
+                "description": "We compete with other wood pellet production companies for the customers to whom we sell our products. Other current producers of utility-grade wood pellets include Drax Biomass Inc., AS Graanul Invest, Fram Renewable Fuels, LLC, Phu Tai Bio-Energy and Highland Pellets LLC. Competition in our industry is based on price, consistency and quality of product, site location, distribution and logistics capabilities, customer service, creditworthiness and reliability of supply. Some of our competitors may have greater financial and other resources than we do, may develop technology superior to ours, or may have production plants sited in more advantageous locations from a logistics, procurement, or other cost perspective.",
+                "potentialImpact": "Significant price decreases or reduced demand could have a material adverse effect on our results of operations, business, and financial position, and cash generated from our operations."
+            },
+            {
+                "category": "Financial",
+                "title": "Restrictions and conditions of DIP Facility",
+                "description": "The DIP Facility is only available if we satisfy certain conditions and imposes significant restrictions on our operations. Proceeds of the DIP Facility may be used only in connection with an approved budget (adjusted for agreed variances). Each draw is subject to the satisfaction of certain conditions under the DIP Credit Agreement, including compliance with meeting the milestones required by the RSA. Borrowings under the DIP Facility bear interest at a rate equal to, at the Company’s option, (i) the alternate base rate plus 7% per annum or (ii) the adjusted SOFR rate plus 8% per annum. The Debtors are required to pay certain other agreed fees to the DIP Creditors and the agents under the DIP Credit Agreement. The DIP Credit Agreement contains usual and customary affirmative and negative covenants and events of default for transactions of this type. In addition, the Debtors are required to maintain a minimum liquidity of $30.0 million.",
+                "potentialImpact": "Our ability to generate cash flows from operations and our ability to continue to access the DIP Facility may be impacted by a variety of business, economic, legislative, financial, and other factors, which may be outside of our control."
+            },
+            {
+                "category": "Financial",
+                "title": "High level of indebtedness",
+                "description": "As of December 31, 2023, our total debt was $1.8 billion, which primarily consisted of $750.0 million aggregate principal amount outstanding under our 6.5% senior unsecured notes due 2026, $672.5 million aggregate principal outstanding under our senior secured credit facility (consisting of $568.5 million in revolving loans and $104.0 million in term loans), and $350.0 million aggregate principal amount of municipal notes issued in July and November 2022 to fund the construction of our plant near Epes, Alabama and our plant near Bond, Mississippi. All of this debt was stayed upon filing of the Chapter 11 Cases on March 12, 2024, and treatment of each of these claims will be addressed as part of the Plan.",
+                "potentialImpact": "A significant portion of our cash flows could be used to service our indebtedness; covenants may limit our ability to borrow additional funds, dispose of assets, pay dividends, and make certain investments; increased vulnerability to adverse economic and industry conditions; may impair ability to obtain additional financing."
+            },
+            {
+                "category": "Financial",
+                "title": "Exposure to foreign currency and interest rate fluctuations",
+                "description": "We may experience foreign currency exchange and interest rate volatility in our business. We may use hedging transactions with respect to certain of our off-take contracts which are, in part or in whole, denominated in foreign currencies and interest rate swaps with respect to any variable-rate debt, in an effort to achieve more predictable cash flow and to reduce our exposure to foreign currency exchange and interest rate fluctuations.",
+                "potentialImpact": "Hedging transactions involve cost and risk and may not be effective at mitigating our exposure to fluctuations in foreign currency exchange and interest rates. May not fully offset the financial impact of foreign currency exchange or interest rates fluctuations, which could have an adverse impact on our results of operations, business and financial position."
+            },
+            {
+                "category": "Operational",
+                "title": "Loss or inability to attract and retain key personnel",
+                "description": "We depend to a large extent on the services of our senior management team and other key personnel. Since late 2022, we have experienced a number of significant leadership transitions including key roles of Chief Executive Officer, President, Chief Financial Officer and General Counsel. In addition, certain members of management have departed or changed roles in connection with the Chapter 11 Cases and further changes may be implemented in connection with the Plan.",
+                "potentialImpact": "Could have a material adverse effect on our operations and could lead to higher labor costs or reliance on less qualified personnel. May result in a loss of personnel with deep institutional or technical knowledge and changes in business strategy or objectives, and has the potential to disrupt our operations and relationships with employees and customers."
+            },
+            {
+                "category": "Market",
+                "title": "International business risks",
+                "description": "Substantially all of our current product sales are to customers that operate outside of the United States. As a result, we face certain risks inherent in maintaining international operations that include foreign exchange movements, restrictions on foreign trade and investment, including currency exchange controls imposed by or in other countries and trade barriers such as export requirements, tariffs, taxes, and other restrictions and expenses.",
+                "potentialImpact": "Could increase the prices of our products and make our products less competitive in some countries."
+            },
+            {
+                "category": "Legal/Regulatory",
+                "title": "Changes to tax laws and regulations",
+                "description": "We are subject to various complex and evolving U.S. federal, state, and local and non-U.S. taxes. U.S. federal, state, and local and non-U.S. tax laws, policies, statutes, rules, regulations, or ordinances could be interpreted, changed, modified, or applied adversely to us, in each case, possibly with retroactive effect.",
+                "potentialImpact": "May have an adverse effect on our business, cash flows, and future profitability."
+            },
+            {
+                "category": "Operational",
+                "title": "Labor strikes or work stoppages",
+                "description": "As of December 31, 2023, none of our employees were represented by a labor union. However, unionization activities could occur among our employees. If employees strike, participate in a work stoppage or slowdown, or engage in other forms of labor strike, it could lead to disruptions in our business, increases in our operating costs, and constraints on our operating flexibility.",
+                "potentialImpact": "Could have a material adverse effect on our business, results of operations, financial condition, and cash flows."
+            },
+            {
+                "category": "Operational",
+                "title": "Cybersecurity risks",
+                "description": "We are reliant on the continuous and uninterrupted operation of our information technology (“IT”) systems. Any IT failure pertaining to availability, access, or system security could potentially result in disruption of our activities and personnel, and could adversely affect our reputation, operations, or financial performance. The energy industry has become increasingly dependent on digital technologies to conduct day-to-day operations. Cybersecurity attacks are also becoming more sophisticated and include, but are not limited to, ransomware, credential stuffing, spear phishing, social engineering, use of deepfakes and other attempts to gain unauthorized access to data for purposes of extortion or other malfeasance.",
+                "potentialImpact": "A cybersecurity incident resulting in a security breach or failure to identify a security threat could disrupt our business and could result in the loss of sensitive, confidential information or other assets, as well as litigation, regulatory enforcement, violation of privacy or securities laws and regulations, and remediation costs, all of which could materially impact our reputation, operations, or financial performance."
+            },
+            {
+                "category": "Legal/Regulatory",
+                "title": "Privacy and data protection compliance risks",
+                "description": "We are subject to a variety of federal, state and local laws, directives, rules, and policies relating to privacy and the collection, protection, use, retention, security, disclosure, transfer, and other processing of personal data and other data. The regulatory framework for data privacy and security worldwide is continuously evolving and developing and, as a result, interpretation, and implementation standards and enforcement practices are likely to remain uncertain for the foreseeable future.",
+                "potentialImpact": "Non-compliance could result in regulatory enforcement, litigation, and adverse impacts on business operations."
+            },
+            {
+                "category": "Legal/Regulatory",
+                "title": "Corporate opportunity provisions in certificate of incorporation",
+                "description": "Our certificate of incorporation permits us to enter into transactions with entities in which one or more of our officers or directors are financially or otherwise interested; permits any of our stockholders, officers or directors to conduct business that competes with us and to make investments in any kind of property in which we may make investments; and provides that if any director or officer of one of our affiliates who is also one of our officers or directors becomes aware of a potential business opportunity, transaction, or other matter, that director or officer will have no duty to communicate or offer that opportunity to us.",
+                "potentialImpact": "A corporate opportunity that would otherwise be available to us may be used for the benefit of one of our affiliates."
+            },
+            {
+                "category": "Financial/Operational",
+                "title": "Material weaknesses in internal control over financial reporting",
+                "description": "In connection with the preparation of the Company’s audited financial statements for the years ended December 31, 2023 and 2022, management identified multiple material weaknesses in our internal control over financial reporting whereby the Company did not design and execute controls in accordance with U.S. generally accepted accounting principles.",
+                "potentialImpact": "If we are unable to develop and maintain an effective system of internal control over financial reporting, we may not be able to accurately report our financial results in a timely manner."
+            },
+            {
+                "category": "Market",
+                "title": "Revenue concentration and credit risk from long-term off-take contracts",
+                "description": "Substantially all of our revenue was from long-term, take-or-pay off-take contracts with four, seven and five customers for the years ended December 31, 2023, 2022 and 2021, respectively. During the year ended December 31, 2023, most of our customers were major power generators in Europe. This concentration of counterparties operating in a single industry and geographic area results in an exposure to credit risk, in that the counterparties may be similarly affected by changes in economic, political, regulatory or other conditions. If a customer defaults or if any of our contracts expire in accordance with their terms, and we are unable to renew or replace these contracts, our gross margin and cash flows, as well as our ability to make cash dividends to our stockholders, may be adversely affected.",
+                "potentialImpact": "Adverse effect on gross margin, cash flows, and ability to make cash dividends."
+            },
+            {
+                "category": "Market",
+                "title": "Exposure to interest rate fluctuations",
+                "description": "We are exposed to fluctuations in interest rates on borrowings under our senior secured credit facility. Borrowings under the senior secured credit facility bear interest, at our option, at either a base rate plus an applicable margin or at a Term SOFR rate plus an applicable margin.",
+                "potentialImpact": "Adverse effect on financial condition and results of operations due to interest rate fluctuations."
+            },
+            {
+                "category": "Market",
+                "title": "Exposure to foreign currency exchange rate fluctuations",
+                "description": "We primarily are exposed to fluctuations in foreign currency exchange rates related to contracts pursuant to which deliveries of wood pellets will be settled in foreign currency.",
+                "potentialImpact": "Adverse effect on financial condition and results of operations due to foreign currency exchange rate fluctuations."
+            }
+        ],
+        "managementHighlights": {
+            "businessOverview": "We develop, construct, acquire, and own and operate contracted wood pellet production plants where we aggregate wood fiber and process it into dry, densified pellets for global markets. We primarily sell through long-term, take-or-pay contracts to customers in Japan, the UK, and the EU, meeting EU Renewable Energy Directive criteria. We own ten plants in the southeastern US and export via multiple deep-water marine terminals. In 2022, we began constructing a new plant in Epes, Alabama, designed to produce over one million metric tons annually. Our raw materials are low-value wood byproducts from sawmilling and timber harvesting. The company is overseen by a Board of Directors with five standing committees responsible for risk oversight and governance, including financial, operational, and environmental risks. The leadership structure is flexible, and governance practices are regularly reviewed to align with company needs.",
+            "keyTrends": "In 2023, the executive compensation program was tied to financial and operating performance goals aligned with shareholder returns and long-term value creation. The company filed for Chapter 11 bankruptcy in March 2024, affecting certain compensation payouts subject to court orders. Peer data and market surveys informed competitive pay rates and program design for executives. A comprehensive review of alternatives to strengthen capital structure, liquidity, and profitability began late in 2023.",
+            "liquidityAssessment": "Since filing Chapter 11 in March 2024, primary liquidity sources include cash balances, cash from operations, and availability under the DIP Credit Facility. Liquidity needs cover working capital, debt service, capital expenditures for plant and terminal maintenance, expansion, and the new plant construction in Alabama. As of December 31, 2023, liquidity was $177.1 million (excluding restricted cash), increasing to $358.7 million by July 31, 2024, including $208.7 million cash and $150 million available under the DIP Facility. The Finance Committee oversees financial matters, capital structure, compliance, and investor relations. Substantial doubt exists about the company's ability to continue as a going concern due to financial condition and bankruptcy risks.",
+            "outlookSummary": "The company aims to alleviate substantial doubt about its going concern status by obtaining Bankruptcy Court approval and successfully implementing the reorganization Plan. In 2024, a new compensation program incentivizes executives to achieve successful emergence from bankruptcy and create long-term stockholder value. The Board regularly reviews leadership and governance to ensure appropriateness for company needs."
+        },
+        "CriticalAuditMatters": [
+            {
+                "MatterTtile": "Accounting for Wood Pellet Off-Take Contracts",
+                "MatterDescription": "The Company primarily earns revenue through long-term take-or-pay off-take contracts and shorter-term off-take contracts. Contracts may include purchasing from third parties or customers and modifications affecting delivery timing, specifications, or price. The Company analyzes contracts to determine if they represent modifications, repurchase obligations, or product exchanges. Auditing these contracts requires complex judgment to assess business purpose and appropriate accounting, including whether contracts were negotiated as a package or to facilitate sales to other customers."
+            },
+            {
+                "MatterTtile": "Recoverability Assessment for Customer Assets",
+                "MatterDescription": "The Company recognized customer assets of $100.3 million related to payments to modify long-term take-or-pay off-take contracts. These assets are amortized as a reduction to transaction price as control of pellets transfers. The Company tests recoverability by comparing expected future consideration to estimated future costs of providing pellets. Auditing this assessment involves subjective judgment due to estimation uncertainty in future production and delivery costs. Significant assumptions include supply sources, production costs, throughput volumes, and overhead. Auditing was challenging due to a material weakness in evaluating recoverability, requiring increased audit effort."
+            },
+            {
+                "MatterTtile": "Material Weakness in Internal Control over Financial Reporting – Recoverability of customer assets",
+                "MatterDescription": "A material weakness was identified as of December 31, 2022, related to ineffective internal controls over evaluation of recoverability of customer assets, remaining unremediated as of December 31, 2023. The Company implemented remediation plans including enhancing precision of controls and improving documentation supporting judgments in recoverability analyses. Full remediation depends on operating the updated process effectively over time and management's testing."
+            },
+            {
+                "MatterTtile": "Material Weakness in Internal Control over Financial Reporting – Fixed assets",
+                "MatterDescription": "The Company did not maintain effective internal controls over fixed assets, representing a material weakness. Issues included inadequate execution and evidence of management review for recognition of fixed assets, accruals, disposals, depreciation, and capitalization of interest. A remediation plan includes enhancing control timeliness, improving documentation, engaging third parties, and refining policies and procedures."
+            },
+            {
+                "MatterTtile": "Material Weakness in Internal Control over Financial Reporting – Accounting for reimbursable shipping and handling costs",
+                "MatterDescription": "The Company lacked effective internal controls over accounting for reimbursable shipping and handling costs recorded as revenue. Controls were not designed with appropriate precision to recognize costs properly and update revenue and cost of goods sold per ASC 606. Remediation includes implementing controls and improving documentation supporting judgments on revenue and cost recognition."
+            },
+            {
+                "MatterTtile": "Material Weakness in Internal Control over Financial Reporting – Leases",
+                "MatterDescription": "The Company did not maintain effective internal controls over leases, representing a material weakness. Controls and evidence of management review were inadequate for identifying lease contracts and calculating right-of-use assets, lease liabilities, financing obligations, and lease receivables. Remediation plans focus on enhancing control execution and monitoring of lease-related balances."
+            },
+            {
+                "MatterTtile": "Material Weakness in Internal Control over Financial Reporting – Financial Close Process",
+                "MatterDescription": "The Company did not operate effective internal controls over preparation and review of account reconciliations, impacting prepaid, other assets, accrued and other liabilities. Controls to monitor embedded derivatives for fair value changes were also lacking. These deficiencies represent material weaknesses in the financial close process. Remediation includes improving documentation, implementing controls for embedded derivatives, and additional training for consistent reconciliation review."
+            }
+        ],
+        "Debt": [
+            {
+                "DebtOrFacilityCategory": "DIP Facility",
+                "Discussion": "The DIP Facility is a debtor-in-possession term loan and notes facility with a maximum amount of $500.0 million. It is available subject to certain conditions and imposes significant restrictions on operations, including use of proceeds only in connection with an approved budget. The facility allows up to five draws, with the first draw concurrent with the Interim DIP Order and up to four additional draws subject to the Final DIP Order. Borrowings bear interest at the Company's option of either the alternate base rate plus 7% per annum or the adjusted SOFR rate plus 8% per annum. The Debtors must pay agreed fees to DIP Creditors and agents, maintain minimum liquidity of $30.0 million, and comply with usual affirmative and negative covenants and events of default. As of July 31, 2024, $350.0 million has been drawn ($150.0 million on March 15, 2024; $100.0 million on June 3, 2024; $100.0 million on July 22, 2024), with $150.0 million undrawn. The DIP Credit Agreement was entered on March 15, 2024, with interim and final court approvals on March 14 and May 3, 2024, respectively. The DIP Financing proceeds are designated to pay operating expenses, fund completion of the Epes plant, and cover other fees and expenditures as per approved budgets. A syndication of up to $100.0 million was offered to eligible common stock holders, with participants becoming lenders as of May 6, 2024, including affiliates of two current directors. Amendments to the DIP Credit Agreement occurred on May 1, June 28, and July 29, 2024."
+            },
+            {
+                "DebtOrFacilityCategory": "Senior Unsecured Notes",
+                "Discussion": "As of December 31, 2023, there was $750.0 million aggregate principal amount outstanding under 6.5% senior unsecured notes due 2026. These notes were issued initially in December 2019 ($600.0 million) and an additional $150.0 million in July 2020. Interest is payable semi-annually on January 15 and July 15. The company did not make the semi-annual interest payment of approximately $24.4 million due on January 16, 2024. The notes are guaranteed jointly and severally on a senior unsecured basis by most existing subsidiaries and may be guaranteed by certain future restricted subsidiaries. The notes may be redeemed at any time at the applicable redemption price plus accrued interest and possibly a make-whole premium. The filing of the Bankruptcy Petitions on March 12, 2024, constituted an event of default and acceleration, making principal and interest immediately due and payable, but enforcement efforts are stayed under bankruptcy provisions."
+            },
+            {
+                "DebtOrFacilityCategory": "Senior Secured Credit Facility",
+                "Discussion": "As of December 31, 2023, $672.5 million aggregate principal was outstanding under the senior secured credit facility, consisting of $568.5 million in revolving loans and $104.0 million in term loans. The revolving credit borrowings bore interest at either a Term SOFR rate or a base rate plus a margin that fluctuates based on the Total Leverage Ratio, with a maturity date of June 30, 2027. The term loan, fully drawn as of January 2023, matures in June 2027 and bears interest at Term SOFR plus 4.00% margin or base rate plus 3.00% margin, with quarterly amortization payments of 0.25% of original principal. During 2023, higher average borrowings and interest rates were noted compared to 2022. The filing of the Bankruptcy Petitions on March 12, 2024, constituted an event of default and acceleration, making principal and interest immediately due and payable, but enforcement efforts are stayed under bankruptcy provisions."
+            },
+            {
+                "DebtOrFacilityCategory": "Municipal Notes",
+                "Discussion": "$350.0 million aggregate principal amount of municipal notes were issued in July and November 2022 to fund construction of plants near Epes, Alabama and Bond, Mississippi. These notes were stayed upon filing of the Chapter 11 Cases on March 12, 2024, with treatment to be addressed as part of the Plan."
+            },
+            {
+                "DebtOrFacilityCategory": "Loan and Guaranty Agreement and Loan Agreements",
+                "Discussion": "Several loan agreements dated November 22, 2022, and June 27, 2022, involving Mississippi Business Finance Corporation, Enviva Pellets Epes, LLC, United Bank, and the Company and its subsidiaries, provide that due to the Bankruptcy Petitions, principal and interest are immediately due and payable. However, enforcement efforts are stayed under bankruptcy provisions, and creditors' rights are subject to Bankruptcy Code and court orders."
+            },
+            {
+                "DebtOrFacilityCategory": "Exempt Facilities Revenue Bonds (Green Bonds)",
+                "Discussion": "Two series of Exempt Facilities Revenue Bonds (Enviva Inc. Project), Series 2022 (Green Bonds) were issued: one by the Industrial Development Authority of Sumter County, Alabama (Epes Green Bonds) with $250.0 million principal amount issued in July 2022, maturing July 15, 2052, interest at 6.00% payable semi-annually, proceeds restricted to funding the Epes plant; and another by Mississippi Business Finance Corporation (Bond Green Bonds) with $100.0 million principal amount issued in November 2022, maturing July 15, 2047, interest at 7.75% payable semi-annually, proceeds restricted to funding the Bond, Mississippi plant. Holders of both bond series are parties to the Restructuring Support Agreement. The Company agreed to seek court approval for a settlement with Bond Green Bonds holders and Trustee for partial redemption via release of construction funds. The Bankruptcy Court approved this settlement on May 8, 2024, and construction funds were transferred to a Settlement Fund for distribution."
+            },
+            {
+                "DebtOrFacilityCategory": "New Markets Tax Credit Loans",
+                "Discussion": "In June 2022, Enviva closed a qualified NMTC financing transaction involving borrowing $31.4 million from a bank, which was loaned to an investment fund that received a $12.8 million capital contribution from another bank. The investment fund contributed $42.0 million to four Community Development Entities (CDEs), which loaned it to Enviva. The $42.0 million accrues interest at a weighted average rate of 2.9% per annum, with $34.1 million maturing in June 2029 and $7.9 million potentially prepayable starting in 2029. The $31.4 million loan is presented within current portion of long-term debt and finance lease obligations, and the $12.8 million contribution is presented within other long-term liabilities. The filing of the Bankruptcy Petitions constituted an event of default and acceleration, but enforcement efforts are stayed under bankruptcy provisions."
+            },
+            {
+                "DebtOrFacilityCategory": "Seller Note",
+                "Discussion": "Enviva was party to a promissory note with a principal balance of $8.8 million as of December 31, 2022, which was repaid in full in February 2023. The note had an interest rate of 2.5% per annum with principal and interest payments due annually through February 2022 and quarterly thereafter."
+            },
+            {
+                "DebtOrFacilityCategory": "Finance Leases and Other Loans",
+                "Discussion": "Finance lease obligations as of December 31, 2023, were $27.7 million with maturities between 2024 and 2041. Other loans outstanding as of the same date were $5.3 million."
+            }
+        ],
+        "CapitalStructure": [
+            {
+                "FacilityOrSecurityName": "DIP Facility",
+                "AmountOutstanding": "up to $500.0 million; $350 million drawn as of July 22, 2024",
+                "Maturity": "",
+                "InterestRate": "",
+                "Collateral": "",
+                "CommitmentsUnfunded": "150,000",
+                "Description": "Debtor-in-Possession Credit and Note Purchase Agreement providing for a debtor-in-possession term loan and notes facility. Interim approval for borrowing up to $150.0 million, final approval for full amount. Syndication of up to $100.0 million aggregate principal amount. Proceeds designated to pay operating expenses, fund completion of Epes plant, and other expenditures. Debtor-in-possession financing approved up to $500 million; $350 million drawn as of July 22, 2024."
+            },
+            {
+                "FacilityOrSecurityName": "First Lien Senior Secured Exit Facility",
+                "AmountOutstanding": "up to $1 billion",
+                "Maturity": "",
+                "InterestRate": "",
+                "Collateral": "",
+                "CommitmentsUnfunded": "",
+                "Description": "Commitment letter with certain commitment parties to provide a first lien senior secured facility in an aggregate principal amount of $1 billion upon emergence from Chapter 11 Cases. Subject to approval by the Bankruptcy Court. Commitment letter entered August 30, 2024, for a $1 billion first lien senior secured facility to be provided upon emergence from Chapter 11 Cases, subject to Bankruptcy Court approval."
+            },
+            {
+                "FacilityOrSecurityName": "2026 Notes",
+                "AmountOutstanding": "748,606",
+                "Maturity": "January 15, 2026",
+                "InterestRate": "6.5%",
+                "Collateral": "Senior unsecured; guaranteed by most existing subsidiaries",
+                "CommitmentsUnfunded": "",
+                "Description": "Senior unsecured notes issued in December 2019 ($600M) and July 2020 ($150M); interest payable semi-annually."
+            },
+            {
+                "FacilityOrSecurityName": "Senior secured credit facility - revolving credit borrowings",
+                "AmountOutstanding": "568,546",
+                "Maturity": "June 30, 2027",
+                "InterestRate": "Term SOFR + 1.50%-2.75% or Base Rate + 0.50%-1.75%, depending on leverage ratio",
+                "Collateral": "Secured by liens on substantially all assets; not guaranteed by Hamlet JV or Enviva Pellets Epes, LLC",
+                "CommitmentsUnfunded": "",
+                "Description": "Revolving credit borrowings under senior secured credit facility."
+            },
+            {
+                "FacilityOrSecurityName": "Senior secured credit facility - term loan",
+                "AmountOutstanding": "100,784",
+                "Maturity": "June 2027",
+                "InterestRate": "Term SOFR + 4.00% or Base Rate + 3.00%",
+                "Collateral": "Secured by liens on substantially all assets; not guaranteed by Hamlet JV or Enviva Pellets Epes, LLC",
+                "CommitmentsUnfunded": "",
+                "Description": "$105 million term loan fully drawn in January 2023; quarterly amortization payments."
+            },
+            {
+                "FacilityOrSecurityName": "Epes Tax-Exempt Green Bonds",
+                "AmountOutstanding": "245,738",
+                "Maturity": "July 15, 2052 (mandatory tender July 2032)",
+                "InterestRate": "6.00%",
+                "Collateral": "Senior unsecured; guaranteed by most existing subsidiaries",
+                "CommitmentsUnfunded": "",
+                "Description": "Issued by The Industrial Development Authority of Sumter County, Alabama; proceeds restricted to Epes plant."
+            },
+            {
+                "FacilityOrSecurityName": "Bond Tax-Exempt Green Bonds",
+                "AmountOutstanding": "97,985",
+                "Maturity": "July 15, 2047 (mandatory tender July 2032)",
+                "InterestRate": "7.75%",
+                "Collateral": "Senior unsecured; guaranteed by most existing subsidiaries",
+                "CommitmentsUnfunded": "",
+                "Description": "Issued by Mississippi Business Finance Corporation; proceeds restricted to Bond, Mississippi plant."
+            },
+            {
+                "FacilityOrSecurityName": "New Markets Tax Credit (NMTC) Loans",
+                "AmountOutstanding": "28,177",
+                "Maturity": "June 2029 (portion prepayable starting 2029)",
+                "InterestRate": "Weighted average 2.9%",
+                "Collateral": "",
+                "CommitmentsUnfunded": "",
+                "Description": "NMTC financing transaction; $42M loaned to Enviva via CDEs."
+            },
+            {
+                "FacilityOrSecurityName": "Seller Note",
+                "AmountOutstanding": "0",
+                "Maturity": "",
+                "InterestRate": "2.5%",
+                "Collateral": "",
+                "CommitmentsUnfunded": "",
+                "Description": "Promissory note repaid in full in February 2023."
+            },
+            {
+                "FacilityOrSecurityName": "Other loans",
+                "AmountOutstanding": "5,311",
+                "Maturity": "",
+                "InterestRate": "",
+                "Collateral": "",
+                "CommitmentsUnfunded": "",
+                "Description": "Other loans outstanding as of December 31, 2023."
+            },
+            {
+                "FacilityOrSecurityName": "Finance leases",
+                "AmountOutstanding": "27,738",
+                "Maturity": "2024-2041",
+                "InterestRate": "",
+                "Collateral": "",
+                "CommitmentsUnfunded": "",
+                "Description": "Finance lease obligations."
+            },
+            {
+                "FacilityOrSecurityName": "Preferred Shares (converted to Common Stock)",
+                "AmountOutstanding": "6,605,671 shares of Common Stock issued upon conversion",
+                "Maturity": "",
+                "InterestRate": "",
+                "Collateral": "",
+                "CommitmentsUnfunded": "",
+                "Description": "On February 28, 2023, the Company entered into Subscription Agreements with Investors to sell Preferred Shares in a private placement for gross proceeds of $249.1 million. On June 15, 2023, the Company’s stockholders approved the issuance of 6,605,671 shares of Common Stock upon the conversion of all of the outstanding Preferred Shares. Each Preferred Share was converted into one share of Common Stock and the Preferred Shares were cancelled."
+            }
+        ]
+    },
+    "extraction_agent_id": "3b88cc70-cec3-4e85-9e3f-9d9fdd80cdd4",
+    "extraction_metadata": {
+        "field_metadata": {},
+        "usage": {
+            "num_pages_extracted": 236,
+            "num_document_tokens": 156016,
+            "num_output_tokens": 28149
+        }
+    }
+}

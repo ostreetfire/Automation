@@ -1,0 +1,186 @@
+{
+  "run_id": "b52247e6-a52b-49af-87bb-4405cdf6b311",
+  "data": {
+    "filingInfo": {
+      "filingType": "Chapter 11 First Day Declaration",
+      "filingDate": "2025-06-26",
+      "reportingPeriodEnd": "2025-06-26",
+      "fiscalYear": null,
+      "fiscalQuarter": null,
+      "cik": "",
+      "documentUrl": null
+    },
+    "companyProfile": {
+      "name": "Zen JV, LLC",
+      "ticker": "",
+      "isAdr": null,
+      "reportingCurrency": "USD",
+      "location": "200 N LaSalle Street #900, Chicago, IL 60601",
+      "incorporationLocation": "Delaware",
+      "businessDescription": "Zen JV, LLC is the parent company formed by the September 2024 merger of CareerBuilder and Monster, providing online job boards, human capital management software, and media properties for job seekers, employers, and government clients.",
+      "sector": "Technology",
+      "industry": "Online Recruiting/Job Boards",
+      "sicCode": null,
+      "employeeCount": "935 employees and 123 contractors as of the Petition Date",
+      "exchanges": null,
+      "auditor": null
+    },
+    "financialHighlights": {
+      "periodEnd": "2025-06-26",
+      "comparisonPeriodEnd": null,
+      "currency": "USD",
+      "unit": "millions",
+      "revenue": 0,
+      "revenuePriorPeriod": null,
+      "revenueGrowth": null,
+      "grossProfit": null,
+      "grossMargin": null,
+      "operatingIncome": null,
+      "operatingMargin": null,
+      "netIncome": 0,
+      "netMargin": null,
+      "eps": null,
+      "dilutedEps": null,
+      "ebitda": null,
+      "freeCashFlow": null
+    },
+    "financialStatements": null,
+    "businessSegments": [
+      {
+        "name": "Media Business",
+        "description": "Comprises www.military.com (news and resources for military members, veterans, and families) and www.fastweb.com (scholarship database and educational resources).",
+        "revenue": null,
+        "revenuePercentage": null,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": "Stalking horse agreement to sell to Valnet Inc. for $22.5 million in cash."
+      },
+      {
+        "name": "Government Business",
+        "description": "Provides human capital management software services to state and federal governments, including applicant tracking, onboarding, and compliance reporting.",
+        "revenue": null,
+        "revenuePercentage": null,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": "Stalking horse agreement to sell to Valsoft Corporation for $6 million in cash."
+      },
+      {
+        "name": "Job Board Business",
+        "description": "Operates the monster.com and careerbuilder.com job boards, connecting employers and job seekers globally.",
+        "revenue": null,
+        "revenuePercentage": null,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": "Stalking horse agreement to sell to JobGet, Inc. for $7 million in cash."
+      }
+    ],
+    "geographicSegments": null,
+    "keyRisks": [
+      {
+        "category": "Market",
+        "title": "Macroeconomic headwinds and reduced hiring",
+        "description": "The company faced an uncertain economic environment with reduced corporate hiring, leading to lower revenues and liquidity issues.",
+        "potentialImpact": "Reduced demand for services, lower revenues, and liquidity constraints."
+      },
+      {
+        "category": "Operational",
+        "title": "Integration and synergy realization",
+        "description": "Challenges in achieving expected synergies from the merger of CareerBuilder and Monster, and inability to evolve quickly in a competitive landscape.",
+        "potentialImpact": "Strained liquidity, inability to sustain business plan, and need for asset sales."
+      },
+      {
+        "category": "Competitive",
+        "title": "Competition from job aggregators and AI-driven hiring tools",
+        "description": "Rise of job aggregators and AI-driven hiring tools increased competition and required rapid adaptation.",
+        "potentialImpact": "Erosion of market share and revenues."
+      },
+      {
+        "category": "Financial",
+        "title": "High debt burden and liquidity shortfall",
+        "description": "Excessive debt and cash burn, with insufficient liquidity to complete turnaround.",
+        "potentialImpact": "Need for capital infusion, asset sales, and bankruptcy filing."
+      }
+    ],
+    "managementHighlights": {
+      "businessOverview": "Zen JV, LLC was formed by the merger of CareerBuilder and Monster in September 2024, combining job board, government, and media businesses to create a comprehensive talent marketplace.",
+      "keyTrends": "Macroeconomic uncertainty, reduced hiring, increased competition from aggregators and AI, and challenges in achieving merger synergies.",
+      "liquidityAssessment": "Liquidity was severely constrained post-merger, requiring a $20 million capital infusion in February 2025 and ultimately leading to a Chapter 11 filing and asset sale process.",
+      "outlookSummary": "The company intends to sell its three main business segments through stalking horse agreements, with closings expected by July 31, 2025, and expects to confirm a plan of liquidation with proceeds."
+    },
+    "CriticalAuditMatters": [
+      
+    ],
+    "Debt": [
+      {
+        "DebtOrFacilityCategory": "Term Loan",
+        "Discussion": "CareerBuilder Term Loan Facility: $135.2 million outstanding as of May 31, 2025, maturing July 31, 2026, secured by substantially all assets of CareerBuilder Loan Parties."
+      },
+      {
+        "DebtOrFacilityCategory": "Senior Secured Notes",
+        "Discussion": "Monster Notes: $226.1 million outstanding as of May 31, 2025, with tranches maturing July 31, 2026 and September 16, 2029, secured by substantially all assets of Monster Note Parties."
+      },
+      {
+        "DebtOrFacilityCategory": "General Unsecured Debt",
+        "Discussion": "Approximately $31.2 million in other debt obligations, such as unsecured trade claims."
+      }
+    ],
+    "CapitalStructure": [
+      {
+        "FacilityOrSecurityName": "CareerBuilder Term Loan Facility",
+        "AmountOutstanding": "$135.2 million as of May 31, 2025",
+        "Maturity": "July 31, 2026",
+        "InterestRate": "ABR + 5.75% (ABR Borrowings); Adjusted Term SOFR Rate + 6.75% (SOFR Borrowings)",
+        "Collateral": "Secured by substantially all assets of the CareerBuilder Loan Parties, subject to customary exceptions",
+        "CommitmentsUnfunded": "",
+        "Description": "Term loan facility for CareerBuilder business segment"
+      },
+      {
+        "FacilityOrSecurityName": "Monster Notes (Senior Secured Notes)",
+        "AmountOutstanding": "$226.1 million as of May 31, 2025",
+        "Maturity": "July 31, 2026 and September 16, 2029 (depending on tranche)",
+        "InterestRate": "10% for all notes",
+        "Collateral": "Secured by substantially all assets of the Monster Note Parties, subject to customary exceptions",
+        "CommitmentsUnfunded": "",
+        "Description": "Senior secured notes issued by Zen JV, LLC and guaranteed by Monster Worldwide LLC, Military Advantage, LLC, FastWeb, LLC, and Monster Government Solutions, LLC"
+      },
+      {
+        "FacilityOrSecurityName": "General Unsecured Debt",
+        "AmountOutstanding": "$31.2 million",
+        "Maturity": "",
+        "InterestRate": "",
+        "Collateral": "",
+        "CommitmentsUnfunded": "",
+        "Description": "Unsecured trade claims and other obligations"
+      }
+    ],
+    "Liquidity": {
+      "assessmentSummary": "Liquidity was severely constrained post-merger, requiring a $20 million capital infusion in February 2025. As of the Petition Date, the Debtors had approximately $2.2 million in cash. The company obtained a $20 million debtor-in-possession (DIP) financing facility from JMB Capital Partners Lending, LLC to bridge to the closing of asset sales.",
+      "operatingCashFlow": 0,
+      "workingCapital": 0,
+      "currentRatio": 0,
+      "creditFacilities": "JMB DIP Facility: up to $20 million, senior secured, to fund operations through the Chapter 11 process and bridge to asset sales. Prepetition forbearance agreements with lenders under the CareerBuilder Term Loan Facility and Monster Notes, with forbearance through July 31, 2025.",
+      "capitalExpenditures": {
+        "amount": 0,
+        "notes": "",
+        "expectations": ""
+      }
+    },
+    "RelatedPartyTransactions": [
+      
+    ]
+  },
+  "extraction_agent_id": "3b88cc70-cec3-4e85-9e3f-9d9fdd80cdd4",
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 20,
+      "num_document_tokens": 8296,
+      "num_output_tokens": 1957
+    }
+  }
+}

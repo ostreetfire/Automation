@@ -1,0 +1,363 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "CaseOverview": {
+      "additionalProperties": false,
+      "description": "High-level summary of the case and the debtor.",
+      "properties": {
+        "companyDescription": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Provide a brief overview of the company's business, its main products (e.g., PA66), key markets, and global operational footprint."
+        },
+        "caseSummary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Summarize the key details of the bankruptcy case, including the filing date, court jurisdiction, and case number."
+        },
+        "reasonsForFiling": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Explain the primary reasons and sequence of events that led to the chapter 11 filing, such as macroeconomic headwinds, pricing pressure from competition, and specific liquidity challenges."
+        },
+        "restructuringPurpose": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Describe the main purpose of the bankruptcy and the company's go-forward plan, including the proposed DIP financing and the goal of achieving a comprehensive deleveraging transaction."
+        }
+      },
+      "required": [
+        "companyDescription",
+        "caseSummary",
+        "reasonsForFiling",
+        "restructuringPurpose"
+      ],
+      "type": "object"
+    },
+    "SpecialCommittee": {
+      "additionalProperties": false,
+      "description": "Details regarding any special committee formed by the Board.",
+      "properties": {
+        "formationDate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "When was the Special Committee of the Board established?"
+        },
+        "mandate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "What is the mandate and delegated authority of the Special Committee, particularly concerning conflict matters?"
+        },
+        "members": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "List the names of the independent directors appointed to the Special Committee."
+        },
+        "advisors": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Identify the independent legal counsel or other advisors retained by the Special Committee."
+        }
+      },
+      "required": [
+        "formationDate",
+        "mandate",
+        "members",
+        "advisors"
+      ],
+      "type": "object"
+    },
+    "PrepetitionTransactions": {
+      "additionalProperties": false,
+      "description": "Significant transactions and measures taken by the company prior to the filing date.",
+      "properties": {
+        "costRationalizationMeasures": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Summarize the cost-saving measures implemented by the company prior to filing, such as headcount reductions and footprint consolidation."
+        },
+        "liquidityManagement": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Detail the liquidity management exercises undertaken, including sale-leaseback transactions, receivables factoring, and vendor payment deferrals."
+        },
+        "bridgeFinancing": {
+          "additionalProperties": false,
+          "description": "Details about any prepetition bridge financing.",
+          "properties": {
+            "facilityDetails": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Describe the terms, total amount, and lenders of the prepetition Bridge Facility."
+            },
+            "purpose": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "What was the stated purpose of the Bridge Facility?"
+            }
+          },
+          "required": [
+            "facilityDetails",
+            "purpose"
+          ],
+          "type": "object"
+        },
+        "forbearanceAgreements": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Summarize any forbearance agreements entered into with prepetition lenders, such as the ABL and Term Loan lenders."
+        }
+      },
+      "required": [
+        "costRationalizationMeasures",
+        "liquidityManagement",
+        "bridgeFinancing",
+        "forbearanceAgreements"
+      ],
+      "type": "object"
+    },
+    "FinancialCondition": {
+      "additionalProperties": false,
+      "description": "A summary of the company's financial state based on information disclosed in the filing.",
+      "properties": {
+        "assets": {
+          "additionalProperties": false,
+          "description": "Key asset values as of the most recent date available.",
+          "properties": {
+            "cashAndEquivalents": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Disclosed cash and cash equivalents balance."
+            },
+            "accountsReceivable": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Disclosed accounts receivable balance."
+            },
+            "inventory": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Disclosed inventory balance."
+            }
+          },
+          "required": [
+            "cashAndEquivalents",
+            "accountsReceivable",
+            "inventory"
+          ],
+          "type": "object"
+        },
+        "liabilities": {
+          "additionalProperties": false,
+          "description": "Key liability balances and structure.",
+          "properties": {
+            "fundedDebt": {
+              "anyOf": [
+                {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "facilityName": {
+                        "type": "string"
+                      },
+                      "principal": {
+                        "type": "string"
+                      },
+                      "totalOutstanding": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "facilityName",
+                      "principal",
+                      "totalOutstanding"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "List the company's funded debt obligations, including facility name, principal, and total outstanding amount."
+            },
+            "tradePayables": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "What was the peak or current amount of accounts payable or trade debt mentioned?"
+            }
+          },
+          "required": [
+            "fundedDebt",
+            "tradePayables"
+          ],
+          "type": "object"
+        },
+        "historicalPerformance": {
+          "additionalProperties": false,
+          "description": "Summary of recent financial performance.",
+          "properties": {
+            "performanceSummary": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Summarize the narrative trend in the company's performance, such as revenue and EBITDA, as described or shown in any charts."
+            },
+            "specificEventsImpact": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Quantify the financial impact of any specific one-time negative events mentioned (e.g., fire, freeze)."
+            }
+          },
+          "required": [
+            "performanceSummary",
+            "specificEventsImpact"
+          ],
+          "type": "object"
+        },
+        "financialProjections": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Summarize any disclosed financial projections, forecasts, or forward-looking guidance for revenue, EBITDA, or cash flow."
+        }
+      },
+      "required": [
+        "assets",
+        "liabilities",
+        "historicalPerformance",
+        "financialProjections"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "CaseOverview",
+    "SpecialCommittee",
+    "PrepetitionTransactions",
+    "FinancialCondition"
+  ],
+  "type": "object"
+}

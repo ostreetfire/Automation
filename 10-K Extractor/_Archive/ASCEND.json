@@ -1,0 +1,247 @@
+{
+  "run_id": "08739494-6bd4-4a7c-8543-d7d6e6d9040d",
+  "data": {
+    "filingInfo": {
+      "filingType": "Chapter 11 Voluntary Petition/First Day Declaration",
+      "filingDate": "2025-04-21",
+      "reportingPeriodEnd": "2025-04-21",
+      "fiscalYear": null,
+      "fiscalQuarter": null,
+      "cik": "",
+      "documentUrl": "https://dm.epiq11.com/Ascend"
+    },
+    "companyProfile": {
+      "name": "Ascend Performance Materials Holdings Inc.",
+      "ticker": "",
+      "isAdr": null,
+      "reportingCurrency": "USD",
+      "location": "1010 Travis St., Suite 900, Houston, Texas 77002",
+      "incorporationLocation": null,
+      "businessDescription": "Ascend is one of the largest, fully-integrated producers of nylon, focusing on the production and sale of nylon 6,6 (PA66) and related chemical intermediates and downstream products, used in applications such as apparel, carpets, tires, automotive, and new technologies.",
+      "sector": "Materials",
+      "industry": "Specialty Chemicals/Plastics",
+      "sicCode": null,
+      "employeeCount": "2,200",
+      "exchanges": null,
+      "auditor": null
+    },
+    "financialHighlights": {
+      "periodEnd": "2024-12-31",
+      "comparisonPeriodEnd": null,
+      "currency": "USD",
+      "unit": "millions",
+      "revenue": 2700,
+      "revenuePriorPeriod": null,
+      "revenueGrowth": null,
+      "grossProfit": null,
+      "grossMargin": null,
+      "operatingIncome": null,
+      "operatingMargin": null,
+      "netIncome": 0,
+      "netMargin": null,
+      "eps": null,
+      "dilutedEps": null,
+      "ebitda": null,
+      "freeCashFlow": null
+    },
+    "financialStatements": null,
+    "businessSegments": [
+      {
+        "name": "PA66 Chemical Intermediates",
+        "description": "Production and sale of chemical intermediates used in PA66 and other materials, including HMD, ADN, AN, AA, HCN, ACN.",
+        "revenue": 864,
+        "revenuePercentage": 32,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": null
+      },
+      {
+        "name": "Nylon and Engineered Plastics",
+        "description": "Downstream PA66 applications for automotive, e-mobility, electrical, electronic, consumer, industrial, cable management, flexible films, healthcare, and textile markets.",
+        "revenue": 1080,
+        "revenuePercentage": 40,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": null
+      },
+      {
+        "name": "Fibers and Textiles",
+        "description": "Downstream PA66 applications for apparel, carpet, and safety systems.",
+        "revenue": 675,
+        "revenuePercentage": 25,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": null
+      },
+      {
+        "name": "Guest Program",
+        "description": "Strategic partnership program where partners use Ascend’s facilities and chemical intermediates, generating revenue and cost recovery.",
+        "revenue": 85,
+        "revenuePercentage": null,
+        "operatingIncome": null,
+        "operatingMargin": null,
+        "yearOverYearGrowth": null,
+        "outlook": null
+      }
+    ],
+    "geographicSegments": [
+      {
+        "region": "Americas",
+        "revenue": null,
+        "revenuePercentage": 41,
+        "yearOverYearGrowth": null
+      },
+      {
+        "region": "Asia",
+        "revenue": null,
+        "revenuePercentage": 40,
+        "yearOverYearGrowth": null
+      },
+      {
+        "region": "EMEAI (Europe, Middle East, Africa, India)",
+        "revenue": null,
+        "revenuePercentage": 19,
+        "yearOverYearGrowth": null
+      }
+    ],
+    "keyRisks": [
+      {
+        "category": "Market/Operational",
+        "title": "Reduced Demand and Increased Competition",
+        "description": "Global economic malaise, reduced demand, and increased competition from China have acutely impacted performance, causing price drops and margin compression.",
+        "potentialImpact": "Lower revenue, compressed margins, and strained liquidity."
+      },
+      {
+        "category": "Operational",
+        "title": "Long-term Take-or-Pay Contracts",
+        "description": "Locked into uneconomic contracts due to market trough, forcing sales at a loss.",
+        "potentialImpact": "Further margin erosion and losses."
+      },
+      {
+        "category": "Liquidity",
+        "title": "Vendor Payment Deferrals",
+        "description": "Deferral of vendor payments led to a past-due accounts-payable wall of over $110 million, resulting in vendor pressure and risk of operational disruption.",
+        "potentialImpact": "Potential plant shutdown and severe operational disruption."
+      },
+      {
+        "category": "Operational/Environmental",
+        "title": "Facility Disruptions",
+        "description": "Fire at Pensacola, Texas freeze, and logistics delays at Wilson Lock caused operational disruptions and increased costs.",
+        "potentialImpact": "Decreased EBITDA, increased costs, and further liquidity strain."
+      },
+      {
+        "category": "Credit/Financial",
+        "title": "Credit Downgrades",
+        "description": "S&P and Moody’s downgraded Ascend’s credit rating due to tight liquidity and upcoming maturities.",
+        "potentialImpact": "Increased vendor pressure, tighter trade terms, and higher cost of capital."
+      }
+    ],
+    "managementHighlights": {
+      "businessOverview": "Ascend is a global leader in the production of nylon 6,6 (PA66) and related chemical intermediates and downstream products, with a focus on high-value applications and a global manufacturing footprint.",
+      "keyTrends": "Facing significant headwinds since mid-2022 due to global economic malaise, reduced demand, increased competition from China, and aggressive price cutting. Margin compression and liquidity strain have resulted.",
+      "liquidityAssessment": "Liquidity crisis became severe in late 2024 due to operational disruptions and macroeconomic factors. Vendor payment deferrals and cost-saving measures were implemented, but a near-term capital infusion was required to avoid plant shutdown.",
+      "outlookSummary": "With stakeholder support and DIP financing, Ascend aims to pursue a value-maximizing restructuring and emerge from Chapter 11 as a healthy, well-capitalized enterprise."
+    },
+    "CriticalAuditMatters": [
+      
+    ],
+    "Debt": [
+      {
+        "DebtOrFacilityCategory": "ABL Facility",
+        "Discussion": "Asset-based lending facility with $500 million capacity (subject to borrowing base), $348 million outstanding as of Petition Date, maturing May 28, 2026 (or earlier if Term Loan Facility matures sooner). First priority lien on revolving collateral."
+      },
+      {
+        "DebtOrFacilityCategory": "Bridge Facility",
+        "Discussion": "Super-senior term loan facility, initially $100 million, upsized to $150 million outstanding as of Petition Date, maturing March 7, 2026. Second priority lien on revolving collateral."
+      },
+      {
+        "DebtOrFacilityCategory": "Term Loan Facility",
+        "Discussion": "Term loan facility with $1,043 million principal, $1,072 million outstanding as of Petition Date, maturing August 27, 2026. Third priority lien on revolving collateral."
+      },
+      {
+        "DebtOrFacilityCategory": "Capital Leases and Sale Leasebacks",
+        "Discussion": "Capital leases and sale leasebacks for buildings, equipment, and vehicles, $350 million outstanding, maturities between June 30, 2025 and December 31, 2029 (leases), and January 1, 2027 to December 1, 2030 (sale leasebacks)."
+      },
+      {
+        "DebtOrFacilityCategory": "China Debt",
+        "Discussion": "Various debt facilities at Chinese subsidiaries (non-Debtors), $158 million outstanding, various maturities, several repayments due in 2025."
+      }
+    ],
+    "CapitalStructure": [
+      {
+        "FacilityOrSecurityName": "ABL Facility",
+        "AmountOutstanding": "$348 million",
+        "Maturity": "May 28, 2026 (or earlier if Term Loan Facility matures sooner)",
+        "InterestRate": "Not stated",
+        "Collateral": "First priority lien on revolving collateral (cash, receivables, inventory)",
+        "CommitmentsUnfunded": "Up to $500 million total capacity (subject to borrowing base)",
+        "Description": "Asset-based lending facility for working capital and liquidity."
+      },
+      {
+        "FacilityOrSecurityName": "Bridge Facility",
+        "AmountOutstanding": "$150 million",
+        "Maturity": "March 7, 2026",
+        "InterestRate": "Not stated",
+        "Collateral": "Second priority lien on revolving collateral; first priority on term loan collateral",
+        "CommitmentsUnfunded": "Initially $100 million, upsized to $150 million",
+        "Description": "Super-senior term loan bridge financing to address liquidity needs."
+      },
+      {
+        "FacilityOrSecurityName": "Term Loan Facility",
+        "AmountOutstanding": "$1,072 million",
+        "Maturity": "August 27, 2026",
+        "InterestRate": "Not stated",
+        "Collateral": "Third priority lien on revolving collateral; second priority on term loan collateral",
+        "CommitmentsUnfunded": "Not stated",
+        "Description": "Term loan facility for general corporate purposes."
+      },
+      {
+        "FacilityOrSecurityName": "Capital Leases and Sale Leasebacks",
+        "AmountOutstanding": "$350 million",
+        "Maturity": "Leases: June 30, 2025 - Dec 31, 2029; Sale Leasebacks: Jan 1, 2027 - Dec 1, 2030",
+        "InterestRate": "Not stated",
+        "Collateral": "Leased and sale-leaseback assets (buildings, equipment, vehicles)",
+        "CommitmentsUnfunded": "Not stated",
+        "Description": "Leases and sale leasebacks for property and equipment."
+      },
+      {
+        "FacilityOrSecurityName": "China Debt",
+        "AmountOutstanding": "$158 million",
+        "Maturity": "Various, several repayments due in 2025",
+        "InterestRate": "Not stated",
+        "Collateral": "Not stated",
+        "CommitmentsUnfunded": "Not stated",
+        "Description": "Debt at non-Debtor Chinese subsidiaries."
+      }
+    ],
+    "Liquidity": {
+      "assessmentSummary": "Ascend's liquidity position became increasingly severe in late 2024 due to operational disruptions, macroeconomic headwinds, and vendor payment deferrals. Cost-saving and liquidity management measures included headcount reduction, cost rationalization, sale leasebacks, factoring receivables, and inventory reduction. Despite these, a near-term capital infusion was required to avoid plant shutdown. DIP financing and stakeholder support are expected to provide sufficient liquidity during Chapter 11.",
+      "operatingCashFlow": 0,
+      "workingCapital": -76,
+      "currentRatio": 0.92,
+      "creditFacilities": "ABL Facility: $500 million capacity (subject to borrowing base), $348 million outstanding as of Petition Date, first priority lien on revolving collateral. Bridge Facility: $150 million outstanding, super-senior, second priority lien.",
+      "capitalExpenditures": {
+        "amount": 0,
+        "notes": "Capital expenditures included $250 million in sale leaseback transactions for US assets as a liquidity management measure.",
+        "expectations": "No explicit future capex guidance provided; focus is on liquidity preservation and operational rationalization."
+      }
+    },
+    "RelatedPartyTransactions": [
+      
+    ]
+  },
+  "extraction_agent_id": "3b88cc70-cec3-4e85-9e3f-9d9fdd80cdd4",
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 47,
+      "num_document_tokens": 20316,
+      "num_output_tokens": 2619
+    }
+  }
+}

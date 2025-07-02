@@ -1,0 +1,1132 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "filingInfo": {
+      "additionalProperties": false,
+      "description": "Basic information about the filing",
+      "properties": {
+        "filingType": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Type of SEC filing"
+        },
+        "filingDate": {
+          "description": "Date when filing was submitted to SEC",
+          "type": "string"
+        },
+        "reportingPeriodEnd": {
+          "description": "End date of reporting period",
+          "type": "string"
+        },
+        "fiscalYear": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Fiscal year"
+        },
+        "fiscalQuarter": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Fiscal quarter (if 10-Q)"
+        },
+        "cik": {
+          "description": "Central Index Key",
+          "type": "string"
+        },
+        "documentUrl": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "URL to filing on SEC website"
+        }
+      },
+      "required": [
+        "filingType",
+        "filingDate",
+        "reportingPeriodEnd",
+        "fiscalYear",
+        "fiscalQuarter",
+        "cik",
+        "documentUrl"
+      ],
+      "type": "object"
+    },
+    "companyProfile": {
+      "additionalProperties": false,
+      "description": "Essential company information",
+      "properties": {
+        "name": {
+          "description": "Legal name of company",
+          "type": "string"
+        },
+        "ticker": {
+          "description": "Stock ticker symbol",
+          "type": "string"
+        },
+        "isAdr": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Whether security is an American Depositary Receipt"
+        },
+        "reportingCurrency": {
+          "description": "Currency used in financial statements",
+          "type": "string"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Company headquarters location (City, State/Country)"
+        },
+        "incorporationLocation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Jurisdiction of incorporation"
+        },
+        "businessDescription": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Brief description of business"
+        },
+        "sector": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Primary sector"
+        },
+        "industry": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Specific industry"
+        },
+        "sicCode": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Standard Industrial Classification code"
+        },
+        "employeeCount": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Number of employees"
+        },
+        "exchanges": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "auditor": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Company's auditor"
+        }
+      },
+      "required": [
+        "name",
+        "ticker",
+        "isAdr",
+        "reportingCurrency",
+        "location",
+        "incorporationLocation",
+        "businessDescription",
+        "sector",
+        "industry",
+        "sicCode",
+        "employeeCount",
+        "exchanges",
+        "auditor"
+      ],
+      "type": "object"
+    },
+    "financialHighlights": {
+      "additionalProperties": false,
+      "description": "Key financial metrics from this reporting period",
+      "properties": {
+        "periodEnd": {
+          "description": "End date of reporting period",
+          "type": "string"
+        },
+        "comparisonPeriodEnd": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "End date of comparison period (typically prior year/quarter)"
+        },
+        "currency": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Currency of financial figures"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Unit of financial figures (thousands, millions, etc.)"
+        },
+        "revenue": {
+          "description": "Total revenue for period",
+          "type": "number"
+        },
+        "revenuePriorPeriod": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Revenue from comparison period"
+        },
+        "revenueGrowth": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Revenue growth percentage"
+        },
+        "grossProfit": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Gross profit"
+        },
+        "grossMargin": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Gross margin percentage"
+        },
+        "operatingIncome": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Operating income"
+        },
+        "operatingMargin": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Operating margin percentage"
+        },
+        "netIncome": {
+          "description": "Net income",
+          "type": "number"
+        },
+        "netMargin": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Net margin percentage"
+        },
+        "eps": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Basic earnings per share"
+        },
+        "dilutedEps": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Diluted earnings per share"
+        },
+        "ebitda": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "EBITDA (Earnings Before Interest, Taxes, Depreciation, Amortization)"
+        },
+        "freeCashFlow": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Free cash flow"
+        }
+      },
+      "required": [
+        "periodEnd",
+        "comparisonPeriodEnd",
+        "currency",
+        "unit",
+        "revenue",
+        "revenuePriorPeriod",
+        "revenueGrowth",
+        "grossProfit",
+        "grossMargin",
+        "operatingIncome",
+        "operatingMargin",
+        "netIncome",
+        "netMargin",
+        "eps",
+        "dilutedEps",
+        "ebitda",
+        "freeCashFlow"
+      ],
+      "type": "object"
+    },
+    "financialStatements": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "incomeStatement": {
+              "additionalProperties": false,
+              "description": "Income statement summary",
+              "properties": {
+                "periodType": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "description": "Period type represented"
+                },
+                "revenue": {
+                  "description": "Total revenue",
+                  "type": "number"
+                },
+                "costOfRevenue": {
+                  "description": "Cost of revenue",
+                  "type": "number"
+                },
+                "grossProfit": {
+                  "description": "Gross profit",
+                  "type": "number"
+                },
+                "operatingExpenses": {
+                  "description": "Total operating expenses",
+                  "type": "number"
+                },
+                "rAndD": {
+                  "description": "Research and development expenses",
+                  "type": "number"
+                },
+                "sgAndA": {
+                  "description": "Selling, general and administrative expenses",
+                  "type": "number"
+                },
+                "operatingIncome": {
+                  "description": "Operating income",
+                  "type": "number"
+                },
+                "interestExpense": {
+                  "description": "Interest expense",
+                  "type": "number"
+                },
+                "incomeTaxExpense": {
+                  "description": "Income tax expense",
+                  "type": "number"
+                },
+                "netIncome": {
+                  "description": "Net income",
+                  "type": "number"
+                },
+                "basicEps": {
+                  "description": "Basic earnings per share",
+                  "type": "number"
+                },
+                "dilutedEps": {
+                  "description": "Diluted earnings per share",
+                  "type": "number"
+                },
+                "sharesOutstandingBasic": {
+                  "description": "Weighted average shares outstanding (basic)",
+                  "type": "number"
+                },
+                "sharesOutstandingDiluted": {
+                  "description": "Weighted average shares outstanding (diluted)",
+                  "type": "number"
+                }
+              },
+              "required": [
+                "periodType",
+                "revenue",
+                "costOfRevenue",
+                "grossProfit",
+                "operatingExpenses",
+                "rAndD",
+                "sgAndA",
+                "operatingIncome",
+                "interestExpense",
+                "incomeTaxExpense",
+                "netIncome",
+                "basicEps",
+                "dilutedEps",
+                "sharesOutstandingBasic",
+                "sharesOutstandingDiluted"
+              ],
+              "type": "object"
+            },
+            "balanceSheet": {
+              "additionalProperties": false,
+              "description": "Balance sheet summary",
+              "properties": {
+                "asOfDate": {
+                  "description": "Balance sheet date",
+                  "type": "string"
+                },
+                "cashAndEquivalents": {
+                  "description": "Cash and cash equivalents",
+                  "type": "number"
+                },
+                "shortTermInvestments": {
+                  "description": "Short-term investments",
+                  "type": "number"
+                },
+                "accountsReceivable": {
+                  "description": "Accounts receivable, net",
+                  "type": "number"
+                },
+                "inventory": {
+                  "description": "Inventory",
+                  "type": "number"
+                },
+                "totalCurrentAssets": {
+                  "description": "Total current assets",
+                  "type": "number"
+                },
+                "propertyPlantEquipment": {
+                  "description": "Property, plant and equipment, net",
+                  "type": "number"
+                },
+                "goodwill": {
+                  "description": "Goodwill",
+                  "type": "number"
+                },
+                "intangibleAssets": {
+                  "description": "Intangible assets, net",
+                  "type": "number"
+                },
+                "totalAssets": {
+                  "description": "Total assets",
+                  "type": "number"
+                },
+                "accountsPayable": {
+                  "description": "Accounts payable",
+                  "type": "number"
+                },
+                "shortTermDebt": {
+                  "description": "Short-term debt",
+                  "type": "number"
+                },
+                "totalCurrentLiabilities": {
+                  "description": "Total current liabilities",
+                  "type": "number"
+                },
+                "longTermDebt": {
+                  "description": "Long-term debt",
+                  "type": "number"
+                },
+                "totalLiabilities": {
+                  "description": "Total liabilities",
+                  "type": "number"
+                },
+                "totalEquity": {
+                  "description": "Total stockholders' equity",
+                  "type": "number"
+                }
+              },
+              "required": [
+                "asOfDate",
+                "cashAndEquivalents",
+                "shortTermInvestments",
+                "accountsReceivable",
+                "inventory",
+                "totalCurrentAssets",
+                "propertyPlantEquipment",
+                "goodwill",
+                "intangibleAssets",
+                "totalAssets",
+                "accountsPayable",
+                "shortTermDebt",
+                "totalCurrentLiabilities",
+                "longTermDebt",
+                "totalLiabilities",
+                "totalEquity"
+              ],
+              "type": "object"
+            },
+            "cashFlowStatement": {
+              "additionalProperties": false,
+              "description": "Cash flow statement summary",
+              "properties": {
+                "periodType": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "description": "Period type represented"
+                },
+                "netIncome": {
+                  "description": "Net income",
+                  "type": "number"
+                },
+                "depreciationAmortization": {
+                  "description": "Depreciation and amortization",
+                  "type": "number"
+                },
+                "stockBasedCompensation": {
+                  "description": "Stock-based compensation",
+                  "type": "number"
+                },
+                "operatingCashFlow": {
+                  "description": "Net cash from operating activities",
+                  "type": "number"
+                },
+                "capitalExpenditures": {
+                  "description": "Capital expenditures",
+                  "type": "number"
+                },
+                "acquisitions": {
+                  "description": "Acquisitions, net of cash acquired",
+                  "type": "number"
+                },
+                "investingCashFlow": {
+                  "description": "Net cash from investing activities",
+                  "type": "number"
+                },
+                "debtIssuance": {
+                  "description": "Proceeds from issuance of debt",
+                  "type": "number"
+                },
+                "debtRepayment": {
+                  "description": "Repayment of debt",
+                  "type": "number"
+                },
+                "stockRepurchase": {
+                  "description": "Repurchase of stock",
+                  "type": "number"
+                },
+                "dividendsPaid": {
+                  "description": "Dividends paid",
+                  "type": "number"
+                },
+                "financingCashFlow": {
+                  "description": "Net cash from financing activities",
+                  "type": "number"
+                },
+                "freeCashFlow": {
+                  "description": "Free cash flow (operating cash flow - capital expenditures)",
+                  "type": "number"
+                }
+              },
+              "required": [
+                "periodType",
+                "netIncome",
+                "depreciationAmortization",
+                "stockBasedCompensation",
+                "operatingCashFlow",
+                "capitalExpenditures",
+                "acquisitions",
+                "investingCashFlow",
+                "debtIssuance",
+                "debtRepayment",
+                "stockRepurchase",
+                "dividendsPaid",
+                "financingCashFlow",
+                "freeCashFlow"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "incomeStatement",
+            "balanceSheet",
+            "cashFlowStatement"
+          ],
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "businessSegments": {
+      "anyOf": [
+        {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "description": "Segment name",
+                "type": "string"
+              },
+              "description": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Segment description"
+              },
+              "revenue": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Segment revenue"
+              },
+              "revenuePercentage": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Percentage of total company revenue"
+              },
+              "operatingIncome": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Segment operating income"
+              },
+              "operatingMargin": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Segment operating margin percentage"
+              },
+              "yearOverYearGrowth": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Year-over-year growth percentage"
+              },
+              "outlook": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Future outlook for segment"
+              }
+            },
+            "required": [
+              "name",
+              "description",
+              "revenue",
+              "revenuePercentage",
+              "operatingIncome",
+              "operatingMargin",
+              "yearOverYearGrowth",
+              "outlook"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "geographicSegments": {
+      "anyOf": [
+        {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "region": {
+                "description": "Geographic region",
+                "type": "string"
+              },
+              "revenue": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Revenue from region"
+              },
+              "revenuePercentage": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Percentage of total company revenue"
+              },
+              "yearOverYearGrowth": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Year-over-year growth percentage"
+              }
+            },
+            "required": [
+              "region",
+              "revenue",
+              "revenuePercentage",
+              "yearOverYearGrowth"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "keyRisks": {
+      "anyOf": [
+        {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "category": {
+                "description": "Risk category (e.g., Market, Operational, Legal)",
+                "type": "string"
+              },
+              "title": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Brief title of risk"
+              },
+              "description": {
+                "description": "Description of risk factor",
+                "type": "string"
+              },
+              "potentialImpact": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "Potential business impact"
+              }
+            },
+            "required": [
+              "category",
+              "title",
+              "description",
+              "potentialImpact"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "managementHighlights": {
+      "additionalProperties": false,
+      "description": "Key highlights from Management Discussion & Analysis",
+      "properties": {
+        "businessOverview": {
+          "description": "Overview of business and strategy",
+          "type": "string"
+        },
+        "keyTrends": {
+          "description": "Key trends affecting performance",
+          "type": "string"
+        },
+        "liquidityAssessment": {
+          "description": "Management assessment of liquidity",
+          "type": "string"
+        },
+        "outlookSummary": {
+          "description": "Future outlook/guidance",
+          "type": "string"
+        }
+      },
+      "required": [
+        "businessOverview",
+        "keyTrends",
+        "liquidityAssessment",
+        "outlookSummary"
+      ],
+      "type": "object"
+    },
+    "CriticalAuditMatters": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "MatterTtile": {
+            "type": "string"
+          },
+          "MatterDescription": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "MatterTtile",
+          "MatterDescription"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "Debt": {
+      "description": "Detailed discussion of debt and capital structure from notes to financial statements.",
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "DebtOrFacilityCategory": {
+            "description": "Type of debt discussed (e.g., Term Loan, Credit Facility, Notes, Revolver, etc.)",
+            "type": "string"
+          },
+          "Discussion": {
+            "description": "Discussion of the debt or facility category.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "DebtOrFacilityCategory",
+          "Discussion"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "CapitalStructure": {
+      "description": "Consolidated Capital Structure",
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "FacilityOrSecurityName": {
+            "description": "Name of the debt, security, or other contractual liability.",
+            "type": "string"
+          },
+          "AmountOutstanding": {
+            "description": "Total amount of obligation, if available.",
+            "type": "string"
+          },
+          "Maturity": {
+            "description": "Maturity date on the obligation.",
+            "type": "string"
+          },
+          "InterestRate": {
+            "description": "Interest rate on the obligation, if applicable.",
+            "type": "string"
+          },
+          "Collateral": {
+            "description": "Description of collateral or other security interests.",
+            "type": "string"
+          },
+          "CommitmentsUnfunded": {
+            "description": "Amount of commitments unfunded as a part of the liability.",
+            "type": "string"
+          },
+          "Description": {
+            "description": "Description or discussion of the nature and purpose of the liability.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "FacilityOrSecurityName",
+          "AmountOutstanding",
+          "Maturity",
+          "InterestRate",
+          "Collateral",
+          "CommitmentsUnfunded",
+          "Description"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "Liquidity": {
+      "additionalProperties": false,
+      "properties": {
+        "assessmentSummary": {
+          "description": "What is management's assessment of the company's liquidity, primary sources of cash, and ability to meet obligations? Look for a 'Liquidity and Capital Resources' section.",
+          "type": "string"
+        },
+        "operatingCashFlow": {
+          "description": "What was the net cash provided by (or used in) operating activities for the most recent period, from the cash flow statement?",
+          "type": "number"
+        },
+        "workingCapital": {
+          "description": "Calculate working capital by subtracting 'totalCurrentLiabilities' from 'totalCurrentAssets' on the balance sheet.",
+          "type": "number"
+        },
+        "currentRatio": {
+          "description": "Calculate the current ratio by dividing 'totalCurrentAssets' by 'totalCurrentLiabilities' from the balance sheet.",
+          "type": "number"
+        },
+        "creditFacilities": {
+          "description": "Summarize the key terms, total size, amount outstanding, and available capacity of the company's primary revolving credit facilities or lines of credit.",
+          "type": "string"
+        },
+        "capitalExpenditures": {
+          "additionalProperties": false,
+          "properties": {
+            "amount": {
+              "description": "What were the company's capital expenditures for the most recent period from the cash flow statement?",
+              "type": "number"
+            },
+            "notes": {
+              "description": "Summarize any narrative discussion or notes explaining the primary drivers of capital expenditures for the period. Look in the MD&A or cash flow discussion.",
+              "type": "string"
+            },
+            "expectations": {
+              "description": "What are the company's stated expectations, guidance, or outlook for future capital expenditures?",
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "notes",
+            "expectations"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "assessmentSummary",
+        "operatingCashFlow",
+        "workingCapital",
+        "currentRatio",
+        "creditFacilities",
+        "capitalExpenditures"
+      ],
+      "type": "object"
+    },
+    "RelatedPartyTransactions": {
+      "type": "array",
+      "description": "List all significant transactions with related parties, such as executive officers, directors, principal owners, or their family members.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "relatedPartyName": {
+            "type": "string",
+            "description": "Who is the related party (person or entity) involved in the transaction?"
+          },
+          "relationship": {
+            "type": "string",
+            "description": "What is their relationship to the company (e.g., CEO, director, entity controlled by a director)?"
+          },
+          "transactionDescription": {
+            "type": "string",
+            "description": "Describe the nature and business purpose of the transaction(s)."
+          },
+          "transactionAmounts": {
+            "type": "string",
+            "description": "What are the dollar amounts or financial values associated with these transactions for the period?"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "filingInfo",
+    "companyProfile",
+    "financialHighlights",
+    "financialStatements",
+    "businessSegments",
+    "geographicSegments",
+    "keyRisks",
+    "managementHighlights",
+    "CriticalAuditMatters",
+    "Debt",
+    "CapitalStructure",
+    "Liquidity",
+    "RelatedPartyTransactions"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,737 @@
+{
+  "run_id": "a26d9a5a-00ab-4a7d-b783-5104ffe248d3",
+  "data": {
+    "DIPFacilityTerms": [
+      {
+        "facilityType": "DIP Term Loan Facility",
+        "commentary": "Approximately $400 million senior secured superpriority term loan facility, composed of $250 million in new money (with $150 million available upon entry of the Interim Order) and a roll-up of approximately $150 million of Super Priority Term Loan Obligations upon entry of the Interim Order. Participation in the facility will be offered on a pro rata basis to all Prepetition Super Priority Term Loan Lenders. The Backstop Parties agreed to provide a full backstop of the $250 million new money component and to open participation to all Bridge Facility lenders on a pro rata basis. The DIP Term Loan Facility provides new money financing and includes a roll-up of Super Priority Term Loan Obligations. The roll-up is a material component of the structure and was required by the DIP Term Lenders as a condition to their commitment.",
+        "commitment": "$250 million of new money term loans, $150 million available upon entry of the Interim Order, $100 million available upon entry of the Final Order; $149,542,180.98 of Super Priority Term Loan Roll-Up. Approximately $250 million in new money financing required to continue operations and fund restructuring process. Upon entry of the Interim Order, approximately $150 million of Super Priority Term Loan Obligations will roll up.",
+        "rollupTerms": "A roll-up of approximately $150 million of Super Priority Term Loan Obligations upon entry of the Interim Order. The roll-up applies on a pro rata basis to all Bridge Facility lenders, with no requirement for participation in syndication. Upon entry of the Interim Order, approximately $150 million of the Debtors’ Super Priority Term Loan Obligations will 'roll up' with the DIP Term Loan Facility, representing a ratio of approximately $0.60 exchanged for each $1 of DIP New Money Term Loans funded (including both the Interim Draw and the Final Draw).",
+        "borrowerGuarantor": "Borrower: Ascend Performance Materials Operations LLC. Guarantors: Ascend Performance Materials Inc.; Ascend Performance Materials Texas Inc.; Ascend Performance Materials European Limited; Ascend Performance Materials Holdings Inc.; Ascend Performance Materials Consumer Solutions Holdings LLC; Ascend Performance Materials Consumer Solutions LLC; APM Disc Holdings LLC; APM Disc Inc.; APM Foreign Holdings LLC; APM (Canada) LLC; APM (PR) LLC; Ascend Performance Materials Netherlands Holding B.V.; Ascend Performance Materials Belgium Holdco SRL.",
+        "lender": "Lenders party thereto from time to time. Agent: Wilmington Savings Fund Society, FSB.",
+        "interestRate": "(a) Term SOFR + 10.00% per annum with 1.50% per annum, payable in cash monthly and 8.50% per annum, payable in kind monthly; or (b) Base Rate + 9.00% per annum, with 0.50% per annum, payable in cash monthly and 8.50% per annum, payable in kind monthly. Default Rate equal to 2.00%, payable in cash monthly (if applicable).",
+        "fees": "Backstop Premium: 10.00% of the aggregate principal amount of the New Money DIP Term Loan Commitments, payable in kind, due and payable upon entry of the Interim Order. Closing Fee: 0.75% of the aggregate principal amount of New Money DIP Term Loan Commitments, payable in kind, due and payable upon entry of the Interim Order.",
+        "maturity": "The earliest of (i) the date that is six months after the Closing Date, subject to four one-month extensions at the election of the Debtors, (ii) the date on which all Loans are accelerated and all unfunded Commitments (if any) have been terminated, (iii) the date the Bankruptcy Court orders a conversion of the Chapter 11 Cases to a chapter 7 liquidation or the dismissal of the chapter 11 case of any Debtor, (iv) the closing of any sale of assets pursuant to Section 363 of the U.S. Bankruptcy Code, which when taken together with all other sales of assets since the Closing Date, constitutes a sale of all or substantially all of the assets of the Loan Parties and (v) the Chapter 11 Plan Effective Date."
+      },
+      {
+        "facilityType": "DIP ABL Facility",
+        "commentary": "$500 million senior secured superpriority asset-based financing facility, composed of postpetition access to all of the commitments under the Prepetition ABL Facility, a roll-up of all Bank Product Obligations, all Letters of Credit, and all unpaid and accrued interest, fees, and expenses due under the Prepetition ABL Facility, a creeping roll-up of Prepetition ABL Obligations, and a full roll-up of all remaining Prepetition ABL Obligations upon entry of the Final Order. The DIP ABL Facility provides postpetition liquidity to the Debtors, including continued access to letters of credit and commercial banking products, and allows for certain intercompany transactions to increase borrowing capacity.",
+        "commitment": "$500 million in aggregate principal, including a roll-up of all Bank Product Obligations, all Letters of Credit, and all unpaid and accrued interest, fees, and expenses due under the Prepetition ABL Facility, and a creeping roll-up of Prepetition ABL Obligations. Continued access to the Prepetition ABL Facility and new money financing; specific commitment size not stated in this segment.",
+        "rollupTerms": "Upon entry of the Interim Order, a roll-up of all Bank Product Obligations, all Letters of Credit, and all unpaid and accrued interest, fees, and expenses due under the Prepetition ABL Facility. A creeping roll-up whereby all cash, collections, and proceeds securing the DIP ABL Facility pay down Prepetition ABL Obligations, and any remaining outstanding Prepetition ABL Obligations are fully rolled into the DIP ABL Facility upon entry of the Final Order.",
+        "borrowerGuarantor": "Borrowers: Ascend Performance Materials Operations LLC; Ascend Performance Materials Inc.; Ascend Performance Materials Texas Inc.; Ascend Performance Materials European Limited. Guarantors: Ascend Performance Materials Holdings Inc.; Ascend Performance Materials Consumer Solutions Holdings LLC; Ascend Performance Materials Consumer Solutions LLC; APM Disc Holdings LLC; APM Disc Inc.; APM Foreign Holdings LLC; APM (Canada) LLC; APM (PR) LLC; Ascend Performance Materials Netherlands Holding B.V.; Ascend Performance Materials Belgium Holdco SRL.",
+        "lender": "Lenders party thereto from time to time. Agent: Wells Fargo Capital Finance, LLC.",
+        "interestRate": "(a) Term SOFR / SONIA + Credit Support Adjustment + 3.50% per annum, payable in cash monthly, or (b) Base Rate / EURIBOR + Credit Support Adjustment + 2.50% per annum, payable in cash monthly. Default Rate equal to 2.00%, payable in cash monthly (if applicable). The Credit Spread Adjustment shall equal 0.10% with respect to the Term SOFR rate and 0.0326% with respect to the SONIA rate.",
+        "fees": "Backstop Premium and Closing Fee, both paid in kind and not as a current cash obligation despite being earned and payable upon entry of the Interim Order. Provides for fees that are usual and customary for credit facilities of that type.",
+        "maturity": "The earliest of (i) the date that is six months after the Closing Date, subject to four one-month extensions at the election of the Debtors, (ii) the date on which all Loans are accelerated and all unfunded Commitments (if any) have been terminated, (iii) the date the Bankruptcy Court orders a conversion of the Chapter 11 Cases to a chapter 7 liquidation or the dismissal of the chapter 11 case of any Debtor, (iv) the closing of any sale of assets pursuant to Section 363 of the U.S. Bankruptcy Code, which when taken together with all other sales of assets since the Closing Date, constitutes a sale of all or substantially all of the assets of the Loan Parties and (v) the Chapter 11 Plan Effective Date."
+      }
+    ],
+    "DIPFinancingOverview": {
+      "liensCollateral": "The DIP financing grants the DIP Term Loan Agent and DIP ABL Agent automatically and validly perfected security interests and liens on the DIP Collateral, including Cash Collateral, subject to the Carve Out, Permitted Liens, and relative priorities set forth in the Interim Order and Annex A. The lien priority varies by category of DIP Collateral, with detailed priority orders for Revolving Priority Collateral, Term Loan Priority Collateral, Previously Unencumbered Property of the Nature of Term Loan Priority Collateral, Previously Unencumbered Property of the Nature of Revolving Priority Collateral, and Previously Unencumbered Property not in the nature of Term Loan or ABL Priority Collateral. The lien/claim priority table in Annex A details the relative priorities of DIP ABL Liens, DIP Term Loan Liens, Carve Out, Permitted Liens, Prepetition ABL Adequate Protection Liens, Prepetition Superpriority Term Loan Adequate Protection Liens, Prepetition ABL Liens, Prepetition Superpriority Term Loan Liens, and related superpriority and adequate protection claims across these collateral categories. The DIP Lenders receive valid, perfected, allowed, enforceable, non-avoidable liens and superpriority claims on DIP Collateral, including junior liens on encumbered property and liens on unencumbered property, effective immediately upon entry of the Interim Order.",
+      "adequateProtection": "The Prepetition Secured Parties receive adequate protection to the extent of any diminution in value of their Prepetition Collateral from and after the Petition Date, including for sale, lease, or use of the collateral, enforcement of the automatic stay, and priming of their interests. Adequate protection includes Adequate Protection Liens, 507(b) Claims, and Adequate Protection Fees and Expenses. The Prepetition ABL Adequate Protection Liens and Prepetition Superpriority Term Loan Adequate Protection Liens are part of the lien/claim priority structure, ranking below DIP liens in certain collateral categories. The adequate protection package is subject to the Carve Out provisions.",
+      "useOfProceeds": "DIP funds are to be used to fund ongoing working capital, general corporate expenditures, other financing needs, pay transaction fees and administrative costs of the Chapter 11 Cases, and pay reasonable and invoiced fees and expenses (including attorneys' and advisors' fees) and interest owed to DIP Secured Parties pursuant to DIP documents and the Interim Order, in accordance with the DIP Budget subject to permitted deviations. Additionally, proceeds are to stabilize operations, fund administration of the Chapter 11 Cases, continue operations in the ordinary course postpetition, and fund the restructuring process. The DIP Budget does not cap professional fees.",
+      "carveOut": "The Carve Out covers professional fees and is a limitation on the use of DIP proceeds and collateral. It includes certain statutory fees and allowed professional fees of the Debtors pursuant to section 1103 of the Bankruptcy Code. The Carve Out is listed as the first priority on all categories of DIP Collateral in the lien/claim priority structure. It protects against administrative insolvency by ensuring assets remain for payment of the Clerk of the Court, U.S. Trustee fees, and professional fees of the Debtors and any statutory committee appointed under section 1102 of the Bankruptcy Code.",
+      "milestones": "The DIP Facilities contemplate a 125-day case with specific milestones including: (a) Entry of the Interim Order within 3 business days after the Petition Date; (b) Agreement on timeline for motions to reject executory contracts and unexpired leases within 10 days; (c) Filing motion establishing general claims bar date within 10 business days; (d) Entry of the Final Order within 36 calendar days; (e) Filing chapter 11 plan and disclosure statement within 45 calendar days; (f) Agreement on business plan for Debtor and affiliates within 60 days; (g) Entry of order approving disclosure statement within 80 calendar days; (h) Entry of confirmation order within 115 calendar days; (i) Effective date of chapter 11 plan within 125 calendar days, extendable if regulatory approvals pending; (j) Designation of certain Foreign Subsidiaries as Subsidiary Guarantors within 30 days following Petition Date, with required documentation within 10 business days."
+    },
+    "DIPFacilityDrawdown": {
+      "commentary": "The DIP Term Loan Facility provides $250 million of new money term loans, with $150 million available upon entry of the Interim Order and $100 million available upon entry of the Final Order. The DIP ABL Facility provides $500 million in aggregate principal, with roll-up and creeping roll-up features for prepetition obligations. The Debtors entered these Chapter 11 Cases with approximately $3.7 million in cash on hand. Without immediate financing, the Debtors project that they will be unable to pay essential costs required to continue operating as a going concern.",
+      "initialDraw": "$150 million of DIP Term Loan Facility new money available upon entry of the Interim Order. The Debtors request authority to receive initial funding under the DIP Facilities upon entry of the Interim Order, prior to the Final Hearing.",
+      "finalDraw": "$100 million of DIP Term Loan Facility new money available upon entry of the Final Order. The Debtors seek authority to receive further funding under the DIP Facilities upon entry of the Final Order, following the Final Hearing.",
+      "dipRelatedFees": "Backstop Premium and Closing Fee for the DIP Term Loan Facility, both paid in kind and not as a current cash obligation despite being earned and payable upon entry of the Interim Order."
+    },
+    "DIPBudget": {
+      "weekEndingDates": [
+        "4/27/25",
+        "5/4/25",
+        "5/11/25",
+        "5/18/25",
+        "5/25/25",
+        "6/1/25",
+        "6/8/25",
+        "6/15/25",
+        "6/22/25",
+        "6/29/25",
+        "7/6/25",
+        "7/13/25",
+        "7/20/25"
+      ],
+      "budgetLineItems": [
+        {
+          "lineItemName": "Customer Receipts (Domestic)",
+          "weeklyValues": [
+            23.7,
+            16.1,
+            19.9,
+            23.1,
+            37,
+            27.2,
+            29.5,
+            33.5,
+            34.3,
+            33.5,
+            32.2,
+            33,
+            31.6
+          ],
+          "total": 374.8
+        },
+        {
+          "lineItemName": "Guest & Other Collections",
+          "weeklyValues": [
+            6.8,
+            10.4,
+            1.4,
+            15.5,
+            5.6,
+            11,
+            1.4,
+            0.6,
+            5.1,
+            5.2,
+            11,
+            0.1,
+            4.6
+          ],
+          "total": 78.5
+        },
+        {
+          "lineItemName": "Total Receipts",
+          "weeklyValues": [
+            30.5,
+            26.6,
+            21.3,
+            38.6,
+            42.6,
+            38.2,
+            30.9,
+            34.1,
+            39.4,
+            38.7,
+            43.2,
+            33,
+            36.2
+          ],
+          "total": 453.3
+        },
+        {
+          "lineItemName": "Supplier Disbursements",
+          "weeklyValues": [
+            -27.1,
+            -51.1,
+            -33,
+            -45,
+            -36.6,
+            -35.8,
+            -32.4,
+            -37.2,
+            -37.3,
+            -35.7,
+            -44.8,
+            -34.4,
+            -38.2
+          ],
+          "total": -488.6
+        },
+        {
+          "lineItemName": "Payroll / Benefit Disbursements",
+          "weeklyValues": [
+            -0.7,
+            -11.7,
+            -0.9,
+            -11.1,
+            -0.7,
+            -10,
+            -1.1,
+            -12,
+            -0.7,
+            -11.2,
+            -2.6,
+            -11.7,
+            -0.7
+          ],
+          "total": -75.3
+        },
+        {
+          "lineItemName": "Taxes (Domestic)",
+          "weeklyValues": [
+            0,
+            0,
+            0,
+            -1.1,
+            0,
+            0,
+            0,
+            -0.2,
+            -1,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "total": -3.2
+        },
+        {
+          "lineItemName": "Total Operating Disbursements",
+          "weeklyValues": [
+            -27.8,
+            -62.8,
+            -33.9,
+            -57.2,
+            -37.3,
+            -45.8,
+            -33.5,
+            -49.4,
+            -39,
+            -46.9,
+            -47.4,
+            -46.1,
+            -40
+          ],
+          "total": -567.1
+        },
+        {
+          "lineItemName": "U.S. Cash Flow from Operations",
+          "weeklyValues": [
+            2.7,
+            -36.2,
+            -12.6,
+            -18.6,
+            5.3,
+            -7.6,
+            -2.6,
+            -15.3,
+            0.4,
+            -8.1,
+            -4.2,
+            -13.1,
+            -3.8
+          ],
+          "total": -113.8
+        },
+        {
+          "lineItemName": "IC Transfers to US",
+          "weeklyValues": [
+            1.7,
+            2.5,
+            4.4,
+            5.5,
+            6,
+            2,
+            3.8,
+            3.8,
+            3.8,
+            3.8,
+            3.8,
+            3.8,
+            0
+          ],
+          "total": 48.6
+        },
+        {
+          "lineItemName": "U.S. Cash Flow from Operations + IC Transfers",
+          "weeklyValues": [
+            4.4,
+            -33.7,
+            -8.2,
+            -13.1,
+            11.3,
+            -5.6,
+            1.2,
+            -11.5,
+            4.2,
+            -4.3,
+            -0.4,
+            -9.4,
+            0
+          ],
+          "total": -65.2
+        },
+        {
+          "lineItemName": "Restructuring Professional Fees",
+          "weeklyValues": [
+            -7.4,
+            -3.6,
+            -2.6,
+            -2.6,
+            -3.6,
+            -2.7,
+            -1.8,
+            -1.8,
+            -1.8,
+            -2.4,
+            -3,
+            -2.2,
+            -2.2
+          ],
+          "total": -37.5
+        },
+        {
+          "lineItemName": "ABL Facility / ABL DIP Interest & Fees",
+          "weeklyValues": [
+            -5.5,
+            -0.1,
+            0,
+            0,
+            0,
+            -0.8,
+            0,
+            0,
+            -1.7,
+            0,
+            -2,
+            0,
+            -0.4
+          ],
+          "total": -10.4
+        },
+        {
+          "lineItemName": "DIP Interest & Fees",
+          "weeklyValues": [
+            -0.9,
+            -0.5,
+            0,
+            0,
+            0,
+            -2.1,
+            0,
+            0,
+            0,
+            0,
+            -2,
+            0,
+            0
+          ],
+          "total": -5.4
+        },
+        {
+          "lineItemName": "Sale Leaseback Principal & Interest",
+          "weeklyValues": [
+            0,
+            -2.5,
+            0,
+            0,
+            0,
+            -1.5,
+            0,
+            0,
+            0,
+            0,
+            -19.3,
+            0,
+            0
+          ],
+          "total": -23.4
+        },
+        {
+          "lineItemName": "Other Non-Recurring",
+          "weeklyValues": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2.7,
+            0,
+            0
+          ],
+          "total": 2.7
+        },
+        {
+          "lineItemName": "Total Non-Operating Items",
+          "weeklyValues": [
+            -13.8,
+            -6.7,
+            -2.6,
+            -2.6,
+            -3.6,
+            -7.2,
+            -1.8,
+            -1.8,
+            -3.5,
+            -2.4,
+            -23.6,
+            -2.2,
+            -2.5
+          ],
+          "total": -74.1
+        },
+        {
+          "lineItemName": "Net Change in Cash",
+          "weeklyValues": [
+            -9.4,
+            -40.4,
+            -10.8,
+            -15.7,
+            7.7,
+            -12.7,
+            -0.6,
+            -13.3,
+            0.7,
+            -6.8,
+            -24,
+            -11.5,
+            -2.5
+          ],
+          "total": -139.3
+        },
+        {
+          "lineItemName": "Beginning Cash Balance",
+          "weeklyValues": [
+            3.7,
+            31.5,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Net Change in Cash (repeat)",
+          "weeklyValues": [
+            -9.4,
+            -40.4,
+            -10.8,
+            -15.7,
+            7.7,
+            -12.7,
+            -0.6,
+            -13.3,
+            0.7,
+            -6.8,
+            -24,
+            -11.5,
+            -2.5
+          ],
+          "total": -139.3
+        },
+        {
+          "lineItemName": "ABL Facility / ABL DIP Draw/(Repayment)",
+          "weeklyValues": [
+            -9.3,
+            0,
+            10.8,
+            5.9,
+            -7.7,
+            7.7,
+            0.6,
+            10.3,
+            -2.4,
+            2.4,
+            0,
+            7.7,
+            0
+          ],
+          "total": 25.9
+        },
+        {
+          "lineItemName": "TL DIP Draw",
+          "weeklyValues": [
+            46.5,
+            38.9,
+            0,
+            9.7,
+            0,
+            5.1,
+            0,
+            3,
+            1.7,
+            4.4,
+            24,
+            3.8,
+            2.5
+          ],
+          "total": 139.7
+        },
+        {
+          "lineItemName": "Ending Cash Balance [A]",
+          "weeklyValues": [
+            31.5,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Beginning Pre-filing ABL / ABL DIP Availability",
+          "weeklyValues": [
+            375.4,
+            375.4,
+            393.5,
+            393.5,
+            393.5,
+            393.5,
+            405.2,
+            405.2,
+            405.2,
+            405.2,
+            405.2,
+            413.5,
+            413.5
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Less: LCs Outstanding",
+          "weeklyValues": [
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6,
+            -29.6
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Less: Reserve",
+          "weeklyValues": [
+            -28.7,
+            -28.7,
+            -30.1,
+            -30.1,
+            -30.1,
+            -30.1,
+            -31,
+            -31,
+            -31,
+            -31,
+            -31,
+            -31.6,
+            -31.6
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Less: Outstanding ABL Balance",
+          "weeklyValues": [
+            -316.4,
+            -307.1,
+            -307.1,
+            -317.8,
+            -323.8,
+            -316.1,
+            -323.8,
+            -324.4,
+            -334.7,
+            -332.3,
+            -334.7,
+            -334.7,
+            -342.3
+          ],
+          "total": -342.3
+        },
+        {
+          "lineItemName": "ABL Facility / ABL DIP (Draw)/Repayment",
+          "weeklyValues": [
+            9.3,
+            0,
+            -10.8,
+            -5.9,
+            7.7,
+            -7.7,
+            -0.6,
+            -10.3,
+            2.4,
+            -2.4,
+            0,
+            -7.7,
+            0
+          ],
+          "total": 0
+        },
+        {
+          "lineItemName": "ABL Facility / ABL DIP Availability Excl. Minimum Liquidity [B]",
+          "weeklyValues": [
+            10,
+            10,
+            15.9,
+            10,
+            17.7,
+            10,
+            20.3,
+            10,
+            12.4,
+            10,
+            10,
+            10,
+            10
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Total Liquidity [A] + [B]",
+          "weeklyValues": [
+            41.5,
+            40,
+            45.9,
+            40,
+            47.7,
+            40,
+            50.3,
+            40,
+            42.4,
+            40,
+            40,
+            40,
+            40
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "TL DIP Draw (repeat)",
+          "weeklyValues": [
+            46.5,
+            38.9,
+            0,
+            9.7,
+            0,
+            5.1,
+            0,
+            3,
+            1.7,
+            4.4,
+            24,
+            3.8,
+            2.5
+          ],
+          "total": 139.7
+        },
+        {
+          "lineItemName": "TL DIP Availability",
+          "weeklyValues": [
+            103.5,
+            64.6,
+            64.6,
+            54.8,
+            154.8,
+            149.8,
+            149.8,
+            146.8,
+            145.1,
+            140.7,
+            116.7,
+            112.8,
+            110.3
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Beginning Escrow Balance",
+          "weeklyValues": [
+            0,
+            4.6,
+            8.1,
+            10.7,
+            13.3,
+            13.2,
+            15.8,
+            15.9,
+            17.7,
+            16.4,
+            18.7,
+            15.1,
+            17.3
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "(+) Contributions",
+          "weeklyValues": [
+            7.4,
+            3.6,
+            2.6,
+            2.6,
+            3.6,
+            2.7,
+            1.8,
+            1.8,
+            1.8,
+            2.4,
+            3,
+            2.2,
+            2.2
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "(-) Released Funds",
+          "weeklyValues": [
+            -2.8,
+            -0.1,
+            0,
+            0,
+            -3.6,
+            -0.1,
+            -1.7,
+            0,
+            -3,
+            -0.1,
+            -6.6,
+            0,
+            -0.5
+          ],
+          "total": null
+        },
+        {
+          "lineItemName": "Ending Escrow Balance",
+          "weeklyValues": [
+            4.6,
+            8.1,
+            10.7,
+            13.3,
+            13.2,
+            15.8,
+            15.9,
+            17.7,
+            16.4,
+            18.7,
+            15.1,
+            17.3,
+            18.9
+          ],
+          "total": 18.9
+        }
+      ]
+    }
+  },
+  "extraction_agent_id": "08e187e9-f92d-4743-a8a3-9063ea97f724",
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 58,
+      "num_document_tokens": 36543,
+      "num_output_tokens": 13661
+    }
+  }
+}

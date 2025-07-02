@@ -1,0 +1,147 @@
+{
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "DIPFacilityTerms": {
+      "type": "array",
+      "description": "Extract the key commercial terms for each distinct DIP financing facility (e.g., ABL, Term Loan).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "facilityType": {
+            "description": "The type of the facility (e.g., 'ABL Facility', 'Term Loan Facility').",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "commentary": {
+            "description": "Summarize the high-level overview of this specific facility, including its purpose and key features.",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "commitment": {
+            "description": "What is the total size of this facility's commitment? Detail new money vs. roll-up amounts.",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "rollupTerms": {
+            "description": "Describe the specific terms of any 'roll-up' of prepetition debt into this DIP facility (e.g., 'creeping roll-up', 'full roll-up').",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "borrowerGuarantor": {
+            "description": "Identify the Borrower(s) and any Guarantor(s) for this facility.",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "lender": {
+            "description": "Identify the Agent and/or primary Lenders for this facility.",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "interestRate": {
+            "description": "What are the interest rates for this facility, including standard and default rates?",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "fees": {
+            "description": "List all specified fees for this facility (e.g., 'Backstop Premium', 'Closing Fee').",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          },
+          "maturity": {
+            "description": "What is the maturity term of this facility?",
+            "anyOf": [{ "type": "string" }, { "type": "null" }]
+          }
+        },
+        "required": ["facilityType", "commentary", "commitment", "rollupTerms", "borrowerGuarantor", "lender", "interestRate", "fees", "maturity"]
+      }
+    },
+    "DIPFinancingOverview": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Extract general terms and conditions that apply across all DIP facilities.",
+      "properties": {
+        "liensCollateral": {
+          "description": "Describe the overall lien priority and collateral package securing the entire DIP financing.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        },
+        "adequateProtection": {
+          "description": "Summarize the adequate protection terms provided to prepetition secured lenders.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        },
+        "useOfProceeds": {
+          "description": "What is the stated use of the DIP funds?",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        },
+        "carveOut": {
+          "description": "Describe the terms of the carve-out for professional fees.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        },
+        "milestones": {
+          "description": "List the key case milestones required by the DIP financing agreement.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        }
+      },
+      "required": ["liensCollateral", "adequateProtection", "useOfProceeds", "carveOut", "milestones"]
+    },
+    "DIPFacilityDrawdown": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Extract details on the DIP facility drawdown schedule and associated fees.",
+      "properties": {
+        "commentary": {
+          "description": "Provide a summary of the total expected draw over the budget period and the projected ending cash balance. Note any key dependencies, such as asset sales.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        },
+        "initialDraw": {
+          "description": "Describe the amount and timing of the initial draw available upon interim court approval.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        },
+        "finalDraw": {
+          "description": "Describe the amount and timing of the second or final draw available upon final court approval.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        },
+        "dipRelatedFees": {
+          "description": "Summarize the key fees associated with the DIP facility, such as commitment and exit fees.",
+          "anyOf": [{ "type": "string" }, { "type": "null" }]
+        }
+      },
+      "required": ["commentary", "initialDraw", "finalDraw", "dipRelatedFees"]
+    },
+    "DIPBudget": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Extract the weekly cash flow budget associated with the DIP financing.",
+      "properties": {
+        "weekEndingDates": {
+          "type": "array",
+          "description": "List the week-ending dates for each column in the budget.",
+          "items": { "type": "string" }
+        },
+        "budgetLineItems": {
+          "type": "array",
+          "description": "Extract each line item from the DIP budget table.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "lineItemName": {
+                "description": "The name of the budget line item (e.g., 'Operating Receipts', 'Ending Cash Balance').",
+                "type": "string"
+              },
+              "weeklyValues": {
+                "type": "array",
+                "description": "A list of the weekly numerical values for the line item, corresponding to the week-ending dates.",
+                "items": { "type": "number" }
+              },
+              "total": {
+                "description": "The total value for the line item over the budget period.",
+                "anyOf": [{ "type": "number" }, { "type": "null" }]
+              }
+            },
+            "required": ["lineItemName", "weeklyValues", "total"]
+          }
+        }
+      },
+      "required": ["weekEndingDates", "budgetLineItems"]
+    }
+  },
+  "required": [
+    "DIPFacilityTerms",
+    "DIPFinancingOverview",
+    "DIPFacilityDrawdown",
+    "DIPBudget"
+  ]
+}
