@@ -12,4 +12,3 @@ slack:
   webhook_url: https://hooks.slack.com/services/...
 
 watchlist:
-  check_interval_days: 1
