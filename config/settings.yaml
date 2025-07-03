@@ -1,1 +1,3 @@
 llamacloud_api_key: ""
+database:
+  url: sqlite:///local.db
