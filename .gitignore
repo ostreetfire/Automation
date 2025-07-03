@@ -1,3 +1,6 @@
 __pycache__/
-*.pyc
+codex/integrate-openai-api-for-llm-tasks
 
+*.pyc
+*.py[cod]
+*.db

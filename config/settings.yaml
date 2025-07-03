@@ -1,1 +1,14 @@
-openai_api_key: "YOUR_OPENAI_API_KEY"
+url: sqlite:///./case_analytics.db
+
+storage:
+  raw_path: ./storage/raw_files
+  processed_path: ./storage/processed_files
+
+openai:
+  api_key: YOUR_API_KEY
+
+slack:
+  webhook_url: https://hooks.slack.com/services/...
+
+watchlist:
+
