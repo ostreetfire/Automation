@@ -1,4 +1,7 @@
+"""Utility helpers for interacting with OpenAI's API."""
+
 import logging
+import os
 import time
 from pathlib import Path
 from typing import List
@@ -6,16 +9,27 @@ from typing import List
 import yaml
 from openai import OpenAI
 
+logger = logging.getLogger(__name__)
+
 CONFIG_FILE = Path(__file__).resolve().parent / "config" / "settings.yaml"
 
-with CONFIG_FILE.open("r", encoding="utf-8") as f:
-    settings = yaml.safe_load(f)
 
-client = OpenAI(api_key=settings.get("openai_api_key"))
+def _load_settings() -> dict:
+    try:
+        with CONFIG_FILE.open("r", encoding="utf-8") as f:
+            return yaml.safe_load(f) or {}
+    except FileNotFoundError:
+        logger.warning("Config file not found: %s", CONFIG_FILE)
+        return {}
+
+
+settings = _load_settings()
+client = OpenAI(api_key=settings.get("openai_api_key") or os.getenv("OPENAI_API_KEY"))
 
 
 def ask_openai(system_prompt: str, user_prompt: str) -> str:
-    """Send a chat completion request and return the assistant message."""
+    """Request a chat completion and return the assistant's reply."""
+
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
@@ -29,7 +43,7 @@ def ask_openai(system_prompt: str, user_prompt: str) -> str:
     )
     elapsed = time.perf_counter() - start_time
     usage = response.usage
-    logging.info(
+    logger.info(
         "OpenAI tokens used: prompt=%s completion=%s (%.2fs)",
         usage.prompt_tokens,
         usage.completion_tokens,
